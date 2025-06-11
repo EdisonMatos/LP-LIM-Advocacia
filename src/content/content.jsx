@@ -532,7 +532,7 @@ const content = {
       miniTag: "PLANTÃO 24H",
       title: "Atendimento jurídico imediato, a qualquer hora",
       subtitle:
-        "Precisa de ajuda agora? Nosso plantão 24 horas está disponível para casos urgentes. Clique abaixo, escolha uma das opções e fale conosco direto pelo WhatsApp.",
+        "Precisa de ajuda agora? Nosso plantão 24 horas está disponível para casos urgentes. ",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {
@@ -584,7 +584,7 @@ const content = {
       card3: {
         title: (
           <p>
-            Habeas <br /> Corpus
+            <i>Habeas</i> <br /> <i>Corpus</i>
           </p>
         ),
         icon: (
