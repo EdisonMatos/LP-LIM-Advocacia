@@ -13,12 +13,12 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
   const bgClasses = {
     dark: "bg-darker",
     light: "bg-lighter",
-    default: "squares",
+    default: "bg-transparent",
   };
   const textClasses = {
     dark: "text-white",
     light: "text-black",
-    default: "bg-bgSectionDark",
+    default: "text-lighter",
   };
   const bgClass = bgClasses[colorMode] || bgClasses.default;
   const textClass = textClasses[colorMode] || textClasses.default;
@@ -27,9 +27,9 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
       <SectionArea id="service" className={`${bgClass} `}>
         <SectionHeader
           className="text-center"
-          miniTitle={content.texts.features.miniTag}
-          sectionHeaderTitle={content.texts.features.title}
-          sectionHeaderSubtitle={content.texts.features.subtitle}
+          miniTitle={content.texts.featuresSectionForm.miniTag}
+          sectionHeaderTitle={content.texts.featuresSectionForm.title}
+          sectionHeaderSubtitle={content.texts.featuresSectionForm.subtitle}
           titleColorSet={textClass}
           subtitleColorSet={textClass}
         />
@@ -37,18 +37,20 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
             <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[30%] ">
+              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight  tablet1:w-[46.5%] tablet1:h-[260px] desktop1:w-[33%] desktop1:h-[300px]">
                 <IconButtonFeatureCard
-                  icon={content.texts.features.card1.icon}
-                  title={content.texts.features.card1.title}
-                  paragraph={content.texts.features.card1.description}
+                  icon={content.texts.featuresSectionForm.card1.icon}
+                  title={content.texts.featuresSectionForm.card1.title}
+                  paragraph={
+                    content.texts.featuresSectionForm.card1.description
+                  }
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                   colorMode={colorMode}
                 />
                 <Button
                   size="small"
-                  label={content.texts.features.card1.labelButton}
-                  buttonLink={content.texts.links.ctaWhatsapp}
+                  label={content.texts.featuresSectionForm.card1.buttonLabel}
+                  buttonLink={content.texts.featuresSectionForm.card1.buttonLink}
                   icon={
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -68,17 +70,17 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[30%]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[260px] desktop1:w-[33%] desktop1:h-[300px]">
                 <IconButtonFeatureCard
-                  icon={content.texts.features.card2.icon}
-                  title={content.texts.features.card2.title}
-                  paragraph={content.texts.features.card2.subtitle}
+                  icon={content.texts.featuresSectionForm.card2.icon}
+                  title={content.texts.featuresSectionForm.card2.title}
+                  paragraph={content.texts.featuresSectionForm.card2.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                   colorMode={colorMode}
                 />
                 <Button
                   size="small"
-                  label={content.texts.features.card2.labelButton}
+                  label={content.texts.featuresSectionForm.card2.buttonLabel}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
                     <svg
@@ -99,17 +101,17 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[30%]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[260px] desktop1:w-[33%] desktop1:h-[300px]">
                 <IconButtonFeatureCard
-                  icon={content.texts.features.card3.icon}
-                  title={content.texts.features.card3.title}
-                  paragraph={content.texts.features.card3.subtitle}
+                  icon={content.texts.featuresSectionForm.card3.icon}
+                  title={content.texts.featuresSectionForm.card3.title}
+                  paragraph={content.texts.featuresSectionForm.card3.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                   colorMode={colorMode}
                 />
                 <Button
                   size="small"
-                  label={content.texts.features.card3.labelButton}
+                  label={content.texts.featuresSectionForm.card3.buttonLabel}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
                     <svg
@@ -130,17 +132,17 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[30%]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[260px] desktop1:w-[33%] desktop1:h-[300px]">
                 <IconButtonFeatureCard
-                  icon={content.texts.features.card4.icon}
-                  title={content.texts.features.card4.title}
-                  paragraph={content.texts.features.card4.subtitle}
+                  icon={content.texts.featuresSectionForm.card4.icon}
+                  title={content.texts.featuresSectionForm.card4.title}
+                  paragraph={content.texts.featuresSectionForm.card4.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                   colorMode={colorMode}
                 />
                 <Button
                   size="small"
-                  label={content.texts.features.card4.labelButton}
+                  label={content.texts.featuresSectionForm.card4.buttonLabel}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
                     <svg
@@ -161,7 +163,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[30%]">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[33%]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card5.icon}
                   title={content.texts.features.card5.title}
@@ -190,8 +192,8 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                     </svg>
                   }
                 />
-              </MotionDivDownToUp>{" "}
-              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[30%]">
+              </MotionDivDownToUp>{" "} */}
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[33%]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card6.icon}
                   title={content.texts.features.card6.title}
@@ -221,11 +223,11 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "} */}
-              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[30%]">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[33%]">
                 <IconButtonFeatureCard
-                  icon={content.texts.features.card7.icon}
-                  title={content.texts.features.card7.title}
-                  paragraph={content.texts.features.card7.subtitle}
+                  icon={content.texts.featuresSectionForm.card7.icon}
+                  title={content.texts.featuresSectionForm.card7.title}
+                  paragraph={content.texts.featuresSectionForm.card7.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 <Button
@@ -251,11 +253,11 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "} */}
-              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[30%]">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[33%]">
                 <IconButtonFeatureCard
-                  icon={content.texts.features.card8.icon}
-                  title={content.texts.features.card8.title}
-                  paragraph={content.texts.features.card8.subtitle}
+                  icon={content.texts.featuresSectionForm.card8.icon}
+                  title={content.texts.featuresSectionForm.card8.title}
+                  paragraph={content.texts.featuresSectionForm.card8.subtitle}
                   className="tablet1:mb-[12px] desktop1:mb-0 desktop2:mb-[18px]"
                 />
                 <Button

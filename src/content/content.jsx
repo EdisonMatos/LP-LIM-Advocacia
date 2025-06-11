@@ -528,6 +528,110 @@ const content = {
         },
       },
     },
+    featuresSectionForm: {
+      miniTag: "PLANTÃO 24H",
+      title: "Atendimento jurídico imediato, a qualquer hora",
+      subtitle:
+        "Precisa de ajuda agora? Nosso plantão 24 horas está disponível para casos urgentes. Clique abaixo, escolha uma das opções e fale conosco direto pelo WhatsApp.",
+      imgFeatures: imgFeatures,
+      imgDivisor: imgDivisor,
+      card1: {
+        title: "Formulário de atendimento",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-message-circle-icon lucide-message-circle"
+          >
+            <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z" />
+          </svg>
+        ),
+        buttonLink:
+          "https://docs.google.com/forms/d/e/1FAIpQLSdViosvN2fpkEcf07WQeFWGVW8xc_ZYiO6Qd8zNIHMfmNQ1Yw/viewform?usp=sharing&ouid=118181087393543604781",
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Quero solicitar atendimento",
+      },
+      card2: {
+        title: "Mandado de Segurança",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-folder-lock-icon lucide-folder-lock"
+          >
+            <rect width="8" height="5" x="14" y="17" rx="1" />
+            <path d="M10 20H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h3.9a2 2 0 0 1 1.69.9l.81 1.2a2 2 0 0 0 1.67.9H20a2 2 0 0 1 2 2v2.5" />
+            <path d="M20 17v-2a2 2 0 1 0-4 0v2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Solicitar análise do caso",
+      },
+      card3: {
+        title: "Habeas Corpus",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-gavel-icon lucide-gavel"
+          >
+            <path d="m14.5 12.5-8 8a2.119 2.119 0 1 1-3-3l8-8" />
+            <path d="m16 16 6-6" />
+            <path d="m8 8 6-6" />
+            <path d="m9 7 8 8" />
+            <path d="m21 11-8-8" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Preciso de atendimento urgente",
+      },
+      card4: {
+        title: "Certidões Tributárias",
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-scale-icon lucide-scale"
+          >
+            <path d="m16 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="m2 16 3-8 3 8c-.87.65-1.92 1-3 1s-2.13-.35-3-1Z" />
+            <path d="M7 21h10" />
+            <path d="M12 3v18" />
+            <path d="M3 7h2c2 0 5-1 7-2 2 1 5 2 7 2h2" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Tirar dúvidas sobre certidões",
+      },
+    },
     blog: {
       miniTag: "BLOG",
       title: "A_Definir",
