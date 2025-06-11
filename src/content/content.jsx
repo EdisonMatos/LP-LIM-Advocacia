@@ -582,7 +582,11 @@ const content = {
         buttonLabel: "Solicitar análise do caso",
       },
       card3: {
-        title: "Habeas Corpus",
+        title: (
+          <p>
+            Habeas <br /> Corpus
+          </p>
+        ),
         icon: (
           <svg
             xmlns="http://www.w3.org/2000/svg"

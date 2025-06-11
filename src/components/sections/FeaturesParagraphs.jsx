@@ -37,7 +37,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
         <SectionWrapper>
           <div className="flex flex-col items-center w-full justify-evenly tablet1:flex-row">
             <div className="flex flex-wrap items-start justify-center w-full gap-[40px]">
-              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight  tablet1:w-[46.5%] tablet1:h-[260px] desktop1:w-[33%] desktop1:h-[300px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-around border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[285px] desktop1:w-[40%] desktop1:h-[270px]">
                 <IconButtonFeatureCard
                   icon={content.texts.featuresSectionForm.card1.icon}
                   title={content.texts.featuresSectionForm.card1.title}
@@ -70,7 +70,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>
-              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[260px] desktop1:w-[33%] desktop1:h-[300px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[285px] desktop1:w-[40%]  desktop1:h-[270px]">
                 <IconButtonFeatureCard
                   icon={content.texts.featuresSectionForm.card2.icon}
                   title={content.texts.featuresSectionForm.card2.title}
@@ -101,7 +101,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[260px] desktop1:w-[33%] desktop1:h-[300px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[285px] desktop1:w-[40%]  desktop1:h-[270px]">
                 <IconButtonFeatureCard
                   icon={content.texts.featuresSectionForm.card3.icon}
                   title={content.texts.featuresSectionForm.card3.title}
@@ -132,7 +132,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "}
-              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[260px] desktop1:w-[33%] desktop1:h-[300px]">
+              <MotionDivDownToUp className="flex flex-col items-center justify-between border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] tablet1:h-[285px] desktop1:w-[40%]  desktop1:h-[270px]">
                 <IconButtonFeatureCard
                   icon={content.texts.featuresSectionForm.card4.icon}
                   title={content.texts.featuresSectionForm.card4.title}
@@ -163,7 +163,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "}
-              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[33%]">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[40%]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card5.icon}
                   title={content.texts.features.card5.title}
@@ -193,7 +193,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "} */}
-              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[33%]">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[40%]">
                 <IconButtonFeatureCard
                   icon={content.texts.features.card6.icon}
                   title={content.texts.features.card6.title}
@@ -223,7 +223,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "} */}
-              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[33%]">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[40%]">
                 <IconButtonFeatureCard
                   icon={content.texts.featuresSectionForm.card7.icon}
                   title={content.texts.featuresSectionForm.card7.title}
@@ -253,7 +253,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                   }
                 />
               </MotionDivDownToUp>{" "} */}
-              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[33%]">
+              {/* <MotionDivDownToUp className="flex flex-col items-center justify-center border-[2px] border-solid px-[10px] py-[20px] rounded-md bg-bgSectionLight tablet1:w-[46.5%] desktop1:w-[40%]">
                 <IconButtonFeatureCard
                   icon={content.texts.featuresSectionForm.card8.icon}
                   title={content.texts.featuresSectionForm.card8.title}

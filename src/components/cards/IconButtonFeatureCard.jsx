@@ -26,16 +26,16 @@ export default function IconButtonFeatureCard(props) {
         {icon}
       </div>
       <h1
-        className={`h-auto font-bold font-mainFont text-title1 text-center mb-[16px] ${textClass}`}
+        className={`h-auto tablet1:w-[50%] desktop1:w-full font-bold font-mainFont text-title1 mb-6 text-center ${textClass}`}
       >
         {title}
       </h1>
 
-      <p
+      {/* <p
         className={`text-center opacity-70 font-mainFont w-[90%] pb-4 ${textClass}`}
       >
         {paragraph}
-      </p>
+      </p> */}
       {children}
     </div>
   );
