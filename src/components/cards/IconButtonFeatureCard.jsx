@@ -18,7 +18,7 @@ export default function IconButtonFeatureCard(props) {
 
   return (
     <div
-      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:w-[400px] desktop1:max-w-[250px] p-0 flex flex-col items-center desktop1:p-0 ${className}`}
+      className={`w-[250px] phone2:w-[300px] phone3:w-[350px] tablet1:w-[400px] justify-between desktop1:w-[150px] p-0 flex flex-col items-center desktop1:p-0 ${className}`}
     >
       <div
         className={`h-[64px] w-[64px] mb-[24px] rounded-md flex justify-center items-center ${bgClass}`}
@@ -26,16 +26,16 @@ export default function IconButtonFeatureCard(props) {
         {icon}
       </div>
       <h1
-        className={`h-auto font-bold font-mainFont text-title1 text-center mb-[16px] ${textClass}`}
+        className={`h-auto tablet1:w-[50%] desktop1:w-full font-bold font-mainFont text-title1 mb-6 text-center ${textClass}`}
       >
         {title}
       </h1>
 
-      <p
+      {/* <p
         className={`text-center opacity-70 font-mainFont w-[90%] pb-4 ${textClass}`}
       >
         {paragraph}
-      </p>
+      </p> */}
       {children}
     </div>
   );
