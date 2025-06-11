@@ -82,9 +82,9 @@ export const infos = {
   enderecoSecundario: (
     <div>
       <p>Endereço:</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
-      <p>A_Definir</p>
+      <p>Rua Bernardo Guimarães,</p>
+      <p>nº 245, Bairro Funcionários Belo Horizonte - MG,</p>
+      <p>CEP: 30140-080.</p>
     </div>
   ),
   expediente: (
