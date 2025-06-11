@@ -20,12 +20,11 @@ export default function Influencer({ appDownloadButtons }) {
           backgroundImage: `url(${content.texts.hero.backgroundPerson})`,
         }}
       >
-        <div className="absolute inset-0 bg-black bg-opacity-70 z-0" />
-
         <div className="relative z-10 flex w-full bg-darker bg-opacity-0 items-left">
+          <div className="absolute inset-0 bg-black bg-opacity-70 z-0" />
           <div className="w-full text-secondary justify-evenly">
             <div className="h-[130px] desktop1:h-[140px]" />
-            <div className="flex flex-col-reverse gap-[10px] desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
+            <div className="flex flex-col-reverse gap-[10px] relative z-10 desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
               <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]  ">
                 <MotionDivDownToUp>
                   <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
