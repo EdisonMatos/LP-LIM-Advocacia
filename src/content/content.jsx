@@ -28,7 +28,7 @@ import trustedByImg3 from "../assets/imgs/trustedBy/item3.jpg";
 import featuresImg1 from "../assets/imgs/features/imgFeatures1.webp";
 import featuresImg2 from "../assets/imgs/features/imgFeatures2.webp";
 import featuresImg3 from "../assets/imgs/features/imgFeatures3.webp";
-import featuresImg4 from "../assets/imgs/features/imgFeatures4.jpg";
+import featuresImg4 from "../assets/imgs/features/imgFeatures4.webp";
 
 import imgFeaturesCardModal1 from "../assets/imgs/features/imgFeaturesCardModal1.jpg";
 import imgFeaturesCardModal2 from "../assets/imgs/features/imgFeaturesCardModal2.jpg";
@@ -193,7 +193,7 @@ const content = {
           "Atuação estratégica na área cultural com foco em segurança jurídica para projetos, instituições e iniciativas criativas.",
         description: (
           <div>
-            ▪ Due Diligence Contratual
+            ▪ Due <i>Diligence</i> Contratual
             <br />▪ Elaboração de Contratos
             <br />▪ Constituição de empresas, associações, institutos e ONGs{" "}
             <br />▪ Certificações
@@ -224,20 +224,20 @@ const content = {
         img: featuresImg2,
         title: "Soluções jurídicas para artistas",
         subtitle:
-          "Proteção dos direitos de artistas, criadores e produtores, com suporte jurídico ágil e personalizado para enfrentar desafios da carreira artística.",
+          "Proteção jurídica para artistas, criadores e produtores, com suporte ágil e individualizado.",
         description: (
           <div>
             ▪ Recursos administrativos;
             <br />▪ Mandado de Segurança;
             <br />▪ Ação Anulatória;
             <br />▪ Tutelas de Urgência;
-            <br />▪ Habeas Corpus; dentre outras medidas que serão analisadas
-            caso a caso.
+            <br />▪ <i>Habeas Corpus</i>; dentre outras medidas que serão
+            analisadas caso a caso.
             <br />
             <br />
-            Elaboração e análise de contratos, Due Diligence, certificações,
-            alteração contratual, constituição de empresas, associações, dentre
-            outros serviços de natureza jurídica.
+            Elaboração e análise de contratos, <i>Due Diligence</i>,
+            certificações, alteração contratual, constituição de empresas,
+            associações, dentre outros serviços de natureza jurídica.
           </div>
         ),
         imgModal: imgFeaturesCardModal2,
@@ -260,7 +260,7 @@ const content = {
         img: featuresImg3,
         title: "Consultoria Jurídica",
         subtitle:
-          "Oferecemos orientação especializada para pessoas físicas e empresas, auxiliando na prevenção e resolução de questões legais com segurança, clareza e estratégias personalizadas para cada necessidade.",
+          "Orientação especializada para pessoas físicas e jurídicas, com foco em segurança, clareza e estratégias personalizadas.",
         description: (
           <div>
             ▪ Diagnóstico jurídico personalizado
@@ -289,14 +289,44 @@ const content = {
       },
       card4: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Núcleos de especialidade",
+        subtitle:
+          "Além do foco cultural, atuamos de forma ampla e integrada nas seguintes áreas:",
         description: (
           <div>
-            A_Definir
+            <strong>
+              Direito Cultural, Autoral, Propriedade Intelectual e da Indústria
+              Criativa
+            </strong>
             <br />
-            A_Definir
+            ▪ Leis de Incentivo à Cultura
+            <br />▪ Registro de obras e marcas
+            <br />▪ Estruturação de editais e projetos
+            <br />▪ Pareceres jurídicos e defesas administrativas
+            <br />▪ Elaboração e análise contratual
+            <br />▪ Arbitragem
             <br />
+            <br />
+            <strong>Núcleo Tributário</strong>
+            <br />
+            ▪ Emissão de certidões tributárias
+            <br />▪ Defesa em execução fiscal e dívida ativa
+            <br />▪ Denúncia espontânea
+            <br />▪ Recuperação de créditos
+            <br />▪ Transação tributária
+            <br />▪ Defesa administrativa e judicial
+            <br />
+            <br />
+            <strong>Núcleo Criminal e Processo Penal</strong>
+            <br />
+            ▪ Acompanhamento de inquérito policial
+            <br /> ▪ ANPP (acordo de não persecução penal)
+            <br />▪ Habeas Corpus
+            <br />▪ Audiência de custódia
+            <br />▪ Defesa processual
+            <br />▪ Medidas protetivas e violência doméstica
+            <br />▪ Penal Econômico e “Penal de Família”
+            <br />▪ Crimes contra o erário
           </div>
         ),
         imgModal: imgFeaturesCardModal4,
@@ -380,7 +410,7 @@ const content = {
         alt: "Imagem profissional de escritório/advogado(a)",
       },
       miniTag: "QUEM É A LIM ADVOCACIA FULL SERVICE",
-      title: "Nossa trajetória",
+      title: "Minha trajetória",
       subtitle:
         "Atuação técnica com acolhimento, clareza e foco na sua necessidade.",
       labelInstagram: "Siga-nos no Instagram",
@@ -389,46 +419,49 @@ const content = {
       labelX: "Siga-nos no X",
       paragraph: (
         <div>
-          Na LIM Advocacia, acreditamos que cada cliente tem uma história única
-          — e que o papel do direito é justamente garantir que essa história
-          seja respeitada.
-          <br />
-          Em um cenário onde muitos se sentem apenas mais um, nosso compromisso
-          é oferecer um atendimento artesanal, humanizado e direto, sem excesso
-          de juridiquês, mas com toda a seriedade e técnica que cada caso exige.
+          Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura desde
+          2014, com atuação técnica em projetos de alta complexidade na FUNARTE,
+          IBRAM, IPHAN e FBN.
+          <br />É especialista em Direito do Entretenimento, Cultural, Direitos
+          Autorais e Propriedade Intelectual, além de possuir especializações em
+          Direito Penal Econômico e Planejamento Tributário pela FGV-SP. É
+          bacharela em Direito pela Escola Superior Dom Hélder Câmara, com
+          passagem pelo TJMG e pela Procuradoria da Fazenda Nacional.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Na LIM Advocacia, acreditamos que cada cliente tem uma história única
-          — e que o papel do direito é justamente garantir que essa história
-          seja respeitada.
+          Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura desde
+          2014, com atuação técnica em projetos de alta complexidade na FUNARTE,
+          IBRAM, IPHAN e FBN. É especialista em Direito do Entretenimento,
+          Cultural, Direitos Autorais e Propriedade Intelectual, além de possuir
+          especializações em Direito Penal Econômico e Planejamento Tributário
+          pela FGV-SP. É bacharel em Direito pela Escola Superior Dom Hélder
+          Câmara, com passagem pelo TJMG e pela Procuradoria da Fazenda
+          Nacional.
           <br />
           <br />
-          Em um cenário onde muitos se sentem apenas mais um, nosso compromisso
-          é oferecer um atendimento artesanal, humanizado e direto, sem excesso
-          de juridiquês, mas com toda a seriedade e técnica que cada caso exige.
+          De 2010 a 2018, integrou a Comissão de Defesa dos Direitos das Pessoas
+          com Deficiência da OAB/MG, onde teve papel essencial na criação da
+          comissão e na coordenação do projeto de lei que autoriza o uso
+          medicinal da cannabis para tratamento de epilepsia e paralisia
+          cerebral.
           <br />
           <br />
-          Somos especialistas em litígios complexos e sabemos que, muitas vezes,
-          a jornada jurídica começa em meio à dor, à dúvida e ao medo.
+          Além de sua atuação jurídica, Lílian é gestora cultural e fundadora da
+          Diálogo – Gestão Cultural & Responsabilidade Socioambiental, onde
+          realiza projetos de grande impacto para a cultura nacional, como a
+          Bienal de Arte Digital, o Festival de Arte Digital e a FLIARCOS. É
+          também autora de artigos sobre arte, sistema jurídico e democracia, e
+          colaborou como colunista e cartunista no blog Núcleo Saravá Cultural
+          durante a resistência democrática de 2022.
           <br />
           <br />
-          É por isso que tratamos cada demanda com empatia, escuta ativa e
-          precisão estratégica. Valorizamos a confiança depositada em nosso
-          trabalho e devolvemos isso com transparência, excelência e clareza em
-          cada etapa do processo.
-          <br />
-          <br />
-          Mais do que resolver problemas jurídicos, nossa missão é acolher
-          pessoas e construir soluções duradouras.
-          <br />
-          <br />
-          Aliamos a tradição do atendimento personalizado com o uso de
-          tecnologias como a inteligência artificial, para entregar agilidade e
-          eficiência sem perder o toque humano. Na LIM, você é prioridade — do
-          início ao fim.
+          Com uma trajetória marcada pela interseção entre Direito, Cultura e
+          Direitos Humanos, Lílian alia sólida formação técnica, pensamento
+          crítico e engajamento social em todas as frentes em que atua — sempre
+          com coragem, sensibilidade e compromisso com a transformação.
           <br />
           <br />
         </p>
