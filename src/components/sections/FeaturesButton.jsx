@@ -27,7 +27,7 @@ export default function FeaturesButton({ colorMode }) {
   const bgClasses = {
     dark: "bg-darker",
     light: "bg-lighter",
-    default: "squares",
+    default: "bg-white",
   };
   const textClasses = {
     dark: "text-white",
