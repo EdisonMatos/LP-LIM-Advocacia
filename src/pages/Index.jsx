@@ -15,6 +15,7 @@ import TeamCards from "../components/sections/TeamCards";
 import BlogPosts from "../components/sections/BlogPosts";
 import SectionForm from "../components/sections/SectionForm";
 import FeaturesQuadrada from "../components/sections/FeaturesQuadrada";
+import ButtonsSection from "../components/sections/ButtonsSection";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -49,6 +50,7 @@ export default function Index() {
         linkedin={true}
       />
       <FeaturesQuadrada />
+      <ButtonsSection/>
       <SectionForm />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />

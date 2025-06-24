@@ -1,6 +1,7 @@
 import PropTypes from "prop-types";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
 import Button from "../interactives/Button";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function FeaturesModalCards(props) {
   const {
@@ -48,23 +49,7 @@ export default function FeaturesModalCards(props) {
                 className=""
                 size="small"
                 onClick={onClick}
-                icon={
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    stroke="currentColor"
-                    strokeWidth="2"
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    className="lucide lucide-corner-down-right"
-                  >
-                    <polyline points="15 10 20 15 15 20" />
-                    <path d="M4 4v7a4 4 0 0 0 4 4h12" />
-                  </svg>
-                }
+                icon={<FaWhatsapp size={20} />}
               />
             </div>
           </MotionDivDownToUp>
