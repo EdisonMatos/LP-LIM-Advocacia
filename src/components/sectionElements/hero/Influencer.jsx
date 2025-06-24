@@ -33,7 +33,7 @@ export default function Influencer({ appDownloadButtons }) {
                     </p>
                   </div>
                 </MotionDivDownToUp>
-                <MotionDivDownToUp>
+                {/* <MotionDivDownToUp>
                   <div className="text-lighter flex justify-center desktop1:justify-start font-bold leading-[47px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                     <h1 className="">{content.texts.hero.title}</h1>
                   </div>
@@ -44,9 +44,9 @@ export default function Influencer({ appDownloadButtons }) {
                       {content.texts.hero.subtitle}
                     </p>
                   </div>
-                </MotionDivDownToUp>
+                </MotionDivDownToUp> */}
                 <div className="w-full phone2:w-full tablet2:w-auto">
-                  <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
+                  {/* <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
                     <Button
                       aria-label={content.texts.hero.ctaButtonAriaLabel}
                       label={content.texts.hero.ctaButtonText}
@@ -54,15 +54,15 @@ export default function Influencer({ appDownloadButtons }) {
                       className="w-[100%]"
                       icon={<FaWhatsapp size={24} />}
                     />
-                  </div>
+                  </div> */}
                   <MotionDivDownToUp>
                     <div className="flex justify-center desktop1:justify-start pb-[36px]">
-                      <div className="flex flex-col items-center desktop1:flex-row text-primary">
+                      {/* <div className="flex flex-col items-center desktop1:flex-row text-primary">
                         {content.texts.hero.obsHero.icon}
                         <p className="text-lighter  ml-[10px] text-center mt-[12px] desktop1:mt-0">
                           {content.texts.hero.obsHero.text}
                         </p>
-                      </div>
+                      </div> */}
                     </div>
                   </MotionDivDownToUp>
                   {appDownloadButtons && (
