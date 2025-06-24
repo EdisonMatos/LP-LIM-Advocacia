@@ -681,8 +681,8 @@ const content = {
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "SÓCIA FUNDADORA",
+      title: "QUEM É A DRA. LÍLIAN OLIVEIRA",
       subtitle: "",
       img: imgSteps,
       alt: "",

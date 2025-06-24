@@ -5,6 +5,7 @@ import SectionArea from "../sectionElements/SectionArea";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 import MotionDivDownToUp from "../animation/MotionDivDownToUp";
+import Paragraphs from "../sectionElements/Paragraphs";
 
 export default function Steps({ colorMode }) {
   // Classes de tema
@@ -49,35 +50,65 @@ export default function Steps({ colorMode }) {
             colorMode={colorMode}
           />
 
-          <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] desktop1:mt-0">
-            <HowItWorksCard
-              number={content.texts.steps.cards.card1.stepNumber}
-              title={content.texts.steps.cards.card1.cardTitle}
-              description={content.texts.steps.cards.card1.cardDescription}
-              animation
-              colorMode={colorMode}
-            />
-            <HowItWorksCard
-              number={content.texts.steps.cards.card2.stepNumber}
-              title={content.texts.steps.cards.card2.cardTitle}
-              description={content.texts.steps.cards.card2.cardDescription}
-              animation
-              colorMode={colorMode}
-            />
-            <HowItWorksCard
-              number={content.texts.steps.cards.card3.stepNumber}
-              title={content.texts.steps.cards.card3.cardTitle}
-              description={content.texts.steps.cards.card3.cardDescription}
-              animation
-              colorMode={colorMode}
-            />
-            <HowItWorksCard
-              number={content.texts.steps.cards.card4.stepNumber}
-              title={content.texts.steps.cards.card4.cardTitle}
-              description={content.texts.steps.cards.card4.cardDescription}
-              animation
-              colorMode={colorMode}
-            />
+          <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] text-white desktop1:mt-0">
+            <Paragraphs>
+              <p>
+                Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura
+                desde 2014, iniciou sua atuação na FUNARTE e atualmente atua no
+                IBRAM, IPHAN e FBN na análise de projetos de alta complexidade.
+              </p>
+              <br />
+              <p>
+                De 2010 a 2018 foi membro-consultora da Comissão de Defesa dos
+                Direitos das Pessoas com Deficiência da OAB/MG, na qual teve a
+                honra de participar da criação dessa Comissão e coordenar os
+                trabalhos para a criação do projeto de lei que autoriza o uso
+                medicinal da canabis para o tratamento das pessoas com
+                deficiência com epilepsia e paralisia cerebral.
+              </p>
+              <br />
+              <p>
+                Advogada Bacharela pela Escola Superior de Direito Dom Hélder
+                Câmara, especialista em Planejamento Tributário: Incentivos
+                fiscais e holding pela FGV SP, especialista em Direito Penal
+                Econômico e em Direito do Entretenimento, Cultural, Direitos
+                Autorais e Propriedade Intelectual
+              </p>
+              <br />
+              <p>
+                Atua na área cultural e da indústria criativa há mais de 30
+                anos.
+              </p>
+              <br />
+              <p>
+                Trabalhou no Tribunal de Justiça do Estado de Minas Gerais na
+                câmara civil e criminal e na Procuradoria da Fazenda Nacional
+                com execuções fiscais e prescrição intercorrente de tributos
+                federais.
+              </p>
+              <br />
+              <p>
+                Atuou como Colunista e Cartunista do blog Núcleo Saravá Cultural
+                no qual contribuiu na luta contra o fascismo, no ano de 2022, em
+                sua coluna sobre arte-estética-direito e democracia
+              </p>
+              <br />
+              <p>
+                Autora de diversos artigos sobre arte, sistema jurídico e
+                democracia.
+              </p>
+              <p>
+                Em 2005, fundou a Diálogo - gestão cultural e Responsabilidade
+                Socio Ambiental na qual atua, até o presente momento, como
+                gestora responsável pela co-realização de projetos de grande
+                relevância para as artes e para cultura do país como: Bienal de
+                Arte Digital e Festival de Arte Digital, Instituto Pedro
+                Moraleida Bernardes, cantora e compositora Julia Mestre, Editora
+                e Produtora Audiovisual Comunicação de Fato, FLIARCOS, Coleção
+                “Caminhando pela História”, dentre tantos outros de igual
+                relevância.
+              </p>
+            </Paragraphs>
           </div>
         </div>
       </SectionWrapper>
