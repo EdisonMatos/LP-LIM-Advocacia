@@ -123,12 +123,11 @@ const content = {
       miniTag: "ESCRITÓRIO FULL SERVICE EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          E se a Justiça
-          <span className="text-primary"> nunca </span>te enxergar?
+          <span className="text-primary">  </span>
         </h1>
       ),
       subtitle:
-        "Você tem direitos. Tenha alguém que realmente lute por eles como deveria.",
+        "",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -154,7 +153,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento 24h. Presencial e on-line para todo Brasil.",
+        text: "",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",

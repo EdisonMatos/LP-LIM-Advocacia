@@ -172,7 +172,7 @@ export default function Panoramica({ appDownloadButtons }) {
                       </div>
                     </MotionDivDownToUp>
                     <div className="w-full phone2:w-full tablet2:w-auto">
-                      <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
+                      {/* <div className="flex justify-center w-full desktop1:justify-start mb-[32px]">
                         <Button
                           aria-label={content.texts.hero.ctaButtonAriaLabel}
                           label={content.texts.hero.ctaButtonText}
@@ -180,7 +180,7 @@ export default function Panoramica({ appDownloadButtons }) {
                           className="w-[100%]"
                           icon={<FaWhatsapp size={24} />}
                         />
-                      </div>
+                      </div> */}
                       <MotionDivDownToUp>
                         <div className="flex justify-center desktop1:justify-start">
                           <div className="flex flex-col items-center desktop1:flex-row text-primary">

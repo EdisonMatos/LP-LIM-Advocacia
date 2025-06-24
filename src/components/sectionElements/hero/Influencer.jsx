@@ -154,7 +154,7 @@ export default function Influencer({ appDownloadButtons }) {
                       </div>
                     </MotionDivDownToUp>
                     <div className="w-full phone2:w-full tablet2:w-auto">
-                      <div className="flex justify-center w-full desktop1:justify-center mb-[32px]">
+                      {/* <div className="flex justify-center w-full desktop1:justify-center mb-[32px]">
                         <Button
                           aria-label={content.texts.hero.ctaButtonAriaLabel}
                           label={content.texts.hero.ctaButtonText}
@@ -162,15 +162,15 @@ export default function Influencer({ appDownloadButtons }) {
                           className="w-[100%]"
                           icon={<FaWhatsapp size={24} />}
                         />
-                      </div>
+                      </div> */}
                       <MotionDivDownToUp>
                         <div className="flex justify-center desktop1:justify-center">
-                          <div className="flex flex-col items-center desktop1:flex-row text-primary">
+                          {/* <div className="flex flex-col items-center desktop1:flex-row text-primary">
                             {content.texts.hero.obsHero.icon}
                             <p className="text-lighter  ml-[10px] text-start mt-[12px] desktop1:mt-0">
                               {content.texts.hero.obsHero.text}
                             </p>
-                          </div>
+                          </div> */}
                         </div>
                       </MotionDivDownToUp>
                       {appDownloadButtons && (
