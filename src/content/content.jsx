@@ -675,9 +675,9 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "LIM Advocacia está sediada em São Paulo com atuação em todos os estados da federação.",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Todavia, a sócia fundadora, associados e correspondentes realizam atendimento presencial e online também em processos com tramitação em outros locais do país.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
