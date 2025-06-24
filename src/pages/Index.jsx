@@ -50,12 +50,12 @@ export default function Index() {
         linkedin={true}
       />
       <FeaturesQuadrada />
-      <ButtonsSection/>
+      <ButtonsSection />
       <SectionForm />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
       {/* <Maps colorMode={colorMode} /> */}
-      <Faq colorMode={colorMode} />
+      {/* <Faq colorMode={colorMode} /> */}
       <FooterSocial
         colorMode={colorMode}
         addres={true}
