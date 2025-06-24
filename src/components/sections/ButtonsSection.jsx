@@ -79,6 +79,13 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 icon={<FaWhatsapp size={24} />}
                 className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
               />
+              <Button
+                aria-label={content.texts.buttonsSection.labelButton7}
+                label={content.texts.buttonsSection.labelButton7}
+                animation
+                icon={<FaWhatsapp size={24} />}
+                className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
+              />
             </div>
           </div>
         </SectionWrapper>
