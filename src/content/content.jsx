@@ -600,51 +600,55 @@ const content = {
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura desde
-          2014, com atuação técnica em projetos de alta complexidade na FUNARTE,
-          IBRAM, IPHAN e FBN.
-          <br />É especialista em Direito do Entretenimento, Cultural, Direitos
-          Autorais e Propriedade Intelectual, além de possuir especializações em
-          Direito Penal Econômico e Planejamento Tributário pela FGV-SP. É
-          bacharela em Direito pela Escola Superior Dom Hélder Câmara, com
-          passagem pelo TJMG e pela Procuradoria da Fazenda Nacional.
+          Estamos em um ambiente pensado e estruturado com total privacidade,
+          sigilo e respeito ao seu momento. Aqui você é acolhido com atendimento
+          humanizado e orientação jurídica adequada para o seu caso.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura desde
-          2014, com atuação técnica em projetos de alta complexidade na FUNARTE,
-          IBRAM, IPHAN e FBN. É especialista em Direito do Entretenimento,
-          Cultural, Direitos Autorais e Propriedade Intelectual, além de possuir
-          especializações em Direito Penal Econômico e Planejamento Tributário
-          pela FGV-SP. É bacharel em Direito pela Escola Superior Dom Hélder
-          Câmara, com passagem pelo TJMG e pela Procuradoria da Fazenda
-          Nacional.
+          A LIM Advocacia nasceu do sonho de oferecer um atendimento jurídico
+          verdadeiramente humanizado, em um ecossistema que compreende o Direito
+          como um sistema único, integrado e conectado à vida real das pessoas.
           <br />
           <br />
-          De 2010 a 2018, integrou a Comissão de Defesa dos Direitos das Pessoas
-          com Deficiência da OAB/MG, onde teve papel essencial na criação da
-          comissão e na coordenação do projeto de lei que autoriza o uso
-          medicinal da cannabis para tratamento de epilepsia e paralisia
-          cerebral.
+          Com uma atuação multidisciplinar e personalizada, contamos com o apoio
+          de profissionais autônomos e parceiros – como psicólogos,
+          psicanalistas, peritos e contadores – que compartilham dos nossos
+          quatro eixos estruturantes: atendimento humanizado, técnica jurídica
+          adequada, excelência e transparência em todo o processo.
           <br />
           <br />
-          Além de sua atuação jurídica, Lílian é gestora cultural e fundadora da
-          Diálogo – Gestão Cultural & Responsabilidade Socioambiental, onde
-          realiza projetos de grande impacto para a cultura nacional, como a
-          Bienal de Arte Digital, o Festival de Arte Digital e a FLIARCOS. É
-          também autora de artigos sobre arte, sistema jurídico e democracia, e
-          colaborou como colunista e cartunista no blog Núcleo Saravá Cultural
-          durante a resistência democrática de 2022.
+          Acreditamos que cada cliente e cada caso são únicos. Por isso,
+          adotamos um modelo de trabalho artesanal, que permite uma análise
+          aprofundada de cada detalhe do caso, aumentando as chances de êxito e
+          satisfação dos direitos pleiteados.
           <br />
           <br />
-          Com uma trajetória marcada pela interseção entre Direito, Cultura e
-          Direitos Humanos, Lílian alia sólida formação técnica, pensamento
-          crítico e engajamento social em todas as frentes em que atua — sempre
-          com coragem, sensibilidade e compromisso com a transformação.
+          Embora sejamos entusiastas da tecnologia e da inovação, optamos, neste
+          momento, por não utilizar inteligência artificial ou automações na
+          elaboração de peças processuais. Para nós, cada petição é construída
+          manualmente, com total atenção técnica e estratégica, respeitando as
+          nuances de cada situação. A tecnologia, portanto, é aplicada apenas na
+          rotina administrativa, nunca no que se refere à produção jurídica do
+          escritório.
           <br />
           <br />
+          Nosso propósito é claro: apresentar soluções jurídicas eficazes, tanto
+          no âmbito administrativo quanto judicial, com a aplicação da técnica
+          jurídica adequada a cada caso, sempre com ética, estratégia e
+          comprometimento.
+          <br />
+          <br />
+          Nossos valores
+          <br />- Acolhimento <br />
+          - Atendimento humanizado <br />
+          - Técnica jurídica adequada <br />
+          - Excelência <br />
+          - Transparência <br />
+          - Estratégia e planejamento <br />
+          - Resiliência Coragem <br />
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
