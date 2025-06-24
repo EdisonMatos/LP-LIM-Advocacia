@@ -8,6 +8,16 @@ import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
 
+import imgQuadrada1 from "../assets/imgs/features/featuresQuadrada1.webp";
+import imgQuadrada2 from "../assets/imgs/features/featuresQuadrada2.webp";
+import imgQuadrada3 from "../assets/imgs/features/featuresQuadrada3.webp";
+import imgQuadrada4 from "../assets/imgs/features/featuresQuadrada4.webp";
+import imgQuadrada5 from "../assets/imgs/features/featuresQuadrada5.webp";
+import imgQuadrada6 from "../assets/imgs/features/featuresQuadrada6.webp";
+import imgQuadrada7 from "../assets/imgs/features/featuresQuadrada7.webp";
+import imgQuadrada8 from "../assets/imgs/features/featuresQuadrada8.webp";
+import imgQuadrada9 from "../assets/imgs/features/featuresQuadrada9.webp";
+
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
 import imgAbout2 from "../assets/imgs/about/aboutImg2.jpg";
@@ -49,6 +59,7 @@ import imgTestimonial4 from "../assets/imgs/testimonials/deposition4.png";
 import { Briefcase, Gavel } from "lucide-react";
 import { Users } from "lucide-react";
 import { FileText } from "lucide-react";
+import { FaWhatsapp } from "react-icons/fa";
 
 const currentYear = new Date().getFullYear();
 
@@ -64,7 +75,7 @@ export const infos = {
   },
   phoneSecundario: {
     ddd: "11",
-    firstPart: "2021", // Apenas os 5 primeiros números (incluindo o 9)
+    firstPart: "2110", // Apenas os 5 primeiros números (incluindo o 9)
     secondPart: "6063", // Apenas os 4 últimos números
   },
   phoneTerciario: {
@@ -123,12 +134,10 @@ const content = {
       miniTag: "ESCRITÓRIO FULL SERVICE EM SÃO PAULO - SP",
       title: (
         <h1 className="mb-[16px]">
-          E se a Justiça
-          <span className="text-primary"> nunca </span>te enxergar?
+          <span className="text-primary"> </span>
         </h1>
       ),
-      subtitle:
-        "Você tem direitos. Tenha alguém que realmente lute por eles como deveria.",
+      subtitle: "",
       heroImgPhone: heroImgPhone, // img da pessoa mobile
       heroDesktop: heroImgDesktop, //bg com foto da pessoa
       heroImg: bgHeroImg, //fundo da Hero
@@ -154,7 +163,7 @@ const content = {
             <path d="m16 18 2 2 4-4" />
           </svg>
         ),
-        text: "Atendimento 24h. Presencial e on-line para todo Brasil.",
+        text: "",
       },
       ctaButtonAriaLabel:
         "Botão para chamada de ação para contato pelo whatsapp",
@@ -347,8 +356,8 @@ const content = {
       },
       card5: {
         img: featuresImg4,
-        title: "A_Definir",
-        subtitle: "A_Definir",
+        title: "Recursos administrativos e judiciais",
+        subtitle: "Consultar recursos administrativos",
         description: (
           <div>
             A_Definir
@@ -369,13 +378,258 @@ const content = {
             stroke-width="2"
             stroke-linecap="round"
             stroke-linejoin="round"
-            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+            class="lucide lucide-handshake-icon lucide-handshake"
           >
-            <circle cx="12" cy="12" r="10" />
-            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
-            <path d="M12 18V6" />
+            <path d="m11 17 2 2a1 1 0 1 0 3-3" />
+            <path d="m14 14 2.5 2.5a1 1 0 1 0 3-3l-3.88-3.88a3 3 0 0 0-4.24 0l-.88.88a1 1 0 1 1-3-3l2.81-2.81a5.79 5.79 0 0 1 7.06-.87l.47.28a2 2 0 0 0 1.42.25L21 4" />
+            <path d="m21 3 1 11h-2" />
+            <path d="M3 3 2 14l6.5 6.5a1 1 0 1 0 3-3" />
+            <path d="M3 4h8" />
           </svg>
         ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Violência doméstica",
+        subtitle: "Pedir ajuda agora",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-shield-alert-icon lucide-shield-alert"
+          >
+            <path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z" />
+            <path d="M12 8v4" />
+            <path d="M12 16h.01" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card7: {
+        img: featuresImg4,
+        title: "Tutela de urgência",
+        subtitle: "Solicitar tutela urgente",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-alarm-clock-icon lucide-alarm-clock"
+          >
+            <circle cx="12" cy="13" r="8" />
+            <path d="M12 9v4l2 2" />
+            <path d="M5 3 2 6" />
+            <path d="m22 6-3-3" />
+            <path d="M6.38 18.7 4 21" />
+            <path d="M17.64 18.67 20 21" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      moreFeatures: {
+        card1: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+        card2: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+        card3: {
+          ico: "A_Definir",
+          title: "A_Definir",
+          subtitle: "A_Definir",
+        },
+      },
+    },
+    featuresQuadrdada: {
+      miniTag: "NÚCLEOS DE ATUAÇÃO",
+      title: "Atenção e dedicação a cada caso",
+      subtitle:
+        "Nossa banca atua com atendimento artesanal, ético e personalizado.",
+      imgFeatures: imgFeatures,
+      imgDivisor: imgDivisor,
+      card1: {
+        img: imgQuadrada1,
+        title: "Tributário",
+        subtitle: "",
+        description: (
+          <div>
+            Assessoria especializada na prevenção e resolução de questões
+            fiscais. Atuação em defesas administrativas e judiciais, recuperação
+            de créditos tributários e planejamento tributário estratégico para
+            empresas e pessoas físicas.
+          </div>
+        ),
+        imgModal: imgQuadrada1,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: imgQuadrada2,
+        title: "Penal Econômico e Processual Penal",
+        subtitle: "",
+        description: (
+          <div>
+            Atuação na defesa em processos relacionados a crimes contra a ordem
+            econômica, financeira e tributária. Especialista em procedimentos
+            criminais complexos e acompanhamento estratégico desde a
+            investigação até o julgamento.
+          </div>
+        ),
+        imgModal: imgQuadrada2,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card3: {
+        img: imgQuadrada3,
+        title: "Crimes Cibernéticos",
+        subtitle: "",
+        description: (
+          <div>
+            Aconselhamento jurídico e defesa em casos de invasão de
+            dispositivos, fraudes digitais, vazamento de dados e demais crimes
+            virtuais. Atuação técnica e atualizada frente à legislação digital.
+          </div>
+        ),
+        imgModal: imgQuadrada3,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card4: {
+        img: imgQuadrada4,
+        title: "Violência Doméstica",
+        subtitle: "",
+        description: (
+          <div>
+            Atendimento humanizado e sigiloso em casos de violência doméstica e
+            familiar. Acompanhamento jurídico completo para medidas protetivas,
+            representação legal e garantia dos direitos da vítima.
+          </div>
+        ),
+        imgModal: imgQuadrada4,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card5: {
+        img: imgQuadrada5,
+        title: "Imobiliário e Direitos Reais",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            Consultoria e atuação em aquisições, regularização de imóveis,
+            usucapião, reintegrações de posse e contratos de compra e venda.
+            Defesa e garantia de direitos sobre bens imóveis e propriedades.
+          </div>
+        ),
+        imgModal: imgQuadrada5,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: imgQuadrada6,
+        title: "Licitação",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            Apoio jurídico completo para empresas em processos licitatórios,
+            desde a análise de editais até a impugnação e recursos. Atuação
+            também em defesa administrativa e judicial em contratos públicos.
+          </div>
+        ),
+        imgModal: imgQuadrada6,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card7: {
+        img: imgQuadrada7,
+        title: "Arbitragem",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            Atuação em procedimentos arbitrais nacionais e internacionais.
+            Solução eficiente de conflitos empresariais com foco na celeridade,
+            confidencialidade e segurança jurídica.
+          </div>
+        ),
+        imgModal: imgQuadrada7,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card8: {
+        img: imgQuadrada8,
+        title: "Planejamento Patrimonial e Holding",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            Estruturação jurídica para proteção de bens, sucessão familiar e
+            organização de empresas via holdings. Estratégias legais para evitar
+            conflitos, reduzir carga tributária e garantir estabilidade
+            patrimonial.
+          </div>
+        ),
+        imgModal: imgQuadrada8,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card9: {
+        img: imgQuadrada9,
+        title: "Família e Sucessão",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            Assessoria em divórcios, inventários, guarda, pensão e testamentos.
+            Planejamento sucessório personalizado para proteção familiar e
+            organização legal dos bens com segurança e tranquilidade.
+          </div>
+        ),
+        imgModal: imgQuadrada9,
+        icon: <FaWhatsapp size={24} />,
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Saiba Mais",
       },
@@ -419,51 +673,55 @@ const content = {
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura desde
-          2014, com atuação técnica em projetos de alta complexidade na FUNARTE,
-          IBRAM, IPHAN e FBN.
-          <br />É especialista em Direito do Entretenimento, Cultural, Direitos
-          Autorais e Propriedade Intelectual, além de possuir especializações em
-          Direito Penal Econômico e Planejamento Tributário pela FGV-SP. É
-          bacharela em Direito pela Escola Superior Dom Hélder Câmara, com
-          passagem pelo TJMG e pela Procuradoria da Fazenda Nacional.
+          Estamos em um ambiente pensado e estruturado com total privacidade,
+          sigilo e respeito ao seu momento. Aqui você é acolhido com atendimento
+          humanizado e orientação jurídica adequada para o seu caso.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
       modal: (
         <p>
-          Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura desde
-          2014, com atuação técnica em projetos de alta complexidade na FUNARTE,
-          IBRAM, IPHAN e FBN. É especialista em Direito do Entretenimento,
-          Cultural, Direitos Autorais e Propriedade Intelectual, além de possuir
-          especializações em Direito Penal Econômico e Planejamento Tributário
-          pela FGV-SP. É bacharel em Direito pela Escola Superior Dom Hélder
-          Câmara, com passagem pelo TJMG e pela Procuradoria da Fazenda
-          Nacional.
+          A LIM Advocacia nasceu do sonho de oferecer um atendimento jurídico
+          verdadeiramente humanizado, em um ecossistema que compreende o Direito
+          como um sistema único, integrado e conectado à vida real das pessoas.
           <br />
           <br />
-          De 2010 a 2018, integrou a Comissão de Defesa dos Direitos das Pessoas
-          com Deficiência da OAB/MG, onde teve papel essencial na criação da
-          comissão e na coordenação do projeto de lei que autoriza o uso
-          medicinal da cannabis para tratamento de epilepsia e paralisia
-          cerebral.
+          Com uma atuação multidisciplinar e personalizada, contamos com o apoio
+          de profissionais autônomos e parceiros – como psicólogos,
+          psicanalistas, peritos e contadores – que compartilham dos nossos
+          quatro eixos estruturantes: atendimento humanizado, técnica jurídica
+          adequada, excelência e transparência em todo o processo.
           <br />
           <br />
-          Além de sua atuação jurídica, Lílian é gestora cultural e fundadora da
-          Diálogo – Gestão Cultural & Responsabilidade Socioambiental, onde
-          realiza projetos de grande impacto para a cultura nacional, como a
-          Bienal de Arte Digital, o Festival de Arte Digital e a FLIARCOS. É
-          também autora de artigos sobre arte, sistema jurídico e democracia, e
-          colaborou como colunista e cartunista no blog Núcleo Saravá Cultural
-          durante a resistência democrática de 2022.
+          Acreditamos que cada cliente e cada caso são únicos. Por isso,
+          adotamos um modelo de trabalho artesanal, que permite uma análise
+          aprofundada de cada detalhe do caso, aumentando as chances de êxito e
+          satisfação dos direitos pleiteados.
           <br />
           <br />
-          Com uma trajetória marcada pela interseção entre Direito, Cultura e
-          Direitos Humanos, Lílian alia sólida formação técnica, pensamento
-          crítico e engajamento social em todas as frentes em que atua — sempre
-          com coragem, sensibilidade e compromisso com a transformação.
+          Embora sejamos entusiastas da tecnologia e da inovação, optamos, neste
+          momento, por não utilizar inteligência artificial ou automações na
+          elaboração de peças processuais. Para nós, cada petição é construída
+          manualmente, com total atenção técnica e estratégica, respeitando as
+          nuances de cada situação. A tecnologia, portanto, é aplicada apenas na
+          rotina administrativa, nunca no que se refere à produção jurídica do
+          escritório.
           <br />
           <br />
+          Nosso propósito é claro: apresentar soluções jurídicas eficazes, tanto
+          no âmbito administrativo quanto judicial, com a aplicação da técnica
+          jurídica adequada a cada caso, sempre com ética, estratégia e
+          comprometimento.
+          <br />
+          <br />
+          Nossos valores
+          <br />- Acolhimento <br />
+          - Atendimento humanizado <br />
+          - Técnica jurídica adequada <br />
+          - Excelência <br />
+          - Transparência <br />
+          - Estratégia e planejamento <br />
+          - Resiliência Coragem <br />
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -490,14 +748,14 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "Enfrentando um problema jurídico? Deixe que cuidamos disso para você!",
+        "LIM Advocacia está sediada em São Paulo com atuação em todos os estados da federação.",
       subtitle:
-        "Converse com nossa equipe. Estamos prontos para oferecer a orientação jurídica de que você precisa.",
+        "Todavia, a sócia fundadora, associados e correspondentes realizam atendimento presencial e online também em processos com tramitação em outros locais do país.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "PASSO A PASSO",
-      title: "Como funciona nosso atendimento?",
+      miniTag: "SÓCIA FUNDADORA",
+      title: "QUEM É A DRA. LÍLIAN OLIVEIRA",
       subtitle: "",
       img: imgSteps,
       alt: "",
@@ -527,6 +785,21 @@ const content = {
             "Iniciamos e conduzimos as ações judiciais ou o serviço contratado, buscando justiça e soluções personalizadas conforme a necessidade do seu caso.",
         },
       },
+    },
+    buttonsSection: {
+      miniTag: "INDÚSTRIA DAS ARTES",
+      title: "LIM Advocacia | Consultoria Jurídica Especializada e Preventiva",
+      subtitle:
+        "Atuação preventiva em negócios criativos e culturais, com foco na legalidade e proteção da propriedade intelectual.",
+      labelButton1:
+        "Assessoria Jurídica para Projetos Culturais e do Audiovisual",
+      labelButton2: "Elaboração de contratos e Due Diligence contratual",
+      labelButton3: "Rede LIM Advocacia | soluções jurídicas para artistas",
+      labelButton4:
+        "Direitos autorais e conexos, Cultural, da Moda, do Audiovisual e do Entretenimento",
+      labelButton5: "Propriedade Intelectual, Marcas e Direito Digital",
+      labelButton6: "Recursos administrativos e judiciais",
+      labelButton7: "Arbitragem",
     },
     featuresSectionForm: {
       miniTag: "PLANTÃO 24H",
@@ -634,6 +907,111 @@ const content = {
         ),
         buttonLabelModal: "Fale Conosco",
         buttonLabel: "Tirar dúvidas sobre certidões",
+      },
+      card5: {
+        img: featuresImg4,
+        title: "Recursos administrativos e judiciais",
+        subtitle: "Consultar recursos administrativos",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card6: {
+        img: featuresImg4,
+        title: "Violência doméstica",
+        subtitle: "Pedir ajuda agora",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-circle-dollar-sign-icon lucide-circle-dollar-sign"
+          >
+            <circle cx="12" cy="12" r="10" />
+            <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8" />
+            <path d="M12 18V6" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card7: {
+        img: featuresImg4,
+        title: "Tutela de urgência",
+        subtitle: "Solicitar tutela urgente",
+        description: (
+          <div>
+            A_Definir
+            <br />
+            <br />
+            A_Definir
+          </div>
+        ),
+        imgModal: imgFeaturesCardModal4,
+        icon: (
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="lucide lucide-alarm-clock-icon lucide-alarm-clock"
+          >
+            <circle cx="12" cy="13" r="8" />
+            <path d="M12 9v4l2 2" />
+            <path d="M5 3 2 6" />
+            <path d="m22 6-3-3" />
+            <path d="M6.38 18.7 4 21" />
+            <path d="M17.64 18.67 20 21" />
+          </svg>
+        ),
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
       },
     },
     blog: {

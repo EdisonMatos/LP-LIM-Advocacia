@@ -8,9 +8,10 @@ import SectionArea from "../sectionElements/SectionArea";
 import ServiceDetailCard from "../cards/ServiceDetailCard";
 import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
-import FeatureImgOnBgCardButton from "../cards/FeatureImgOnBgCardButton";
+import FeaturesModalCards from "../cards/FeaturesModalCards";
+import ServiceFeaturesQuadrdada from "../cards/ServiceFeaturesQuadrdada";
 
-export default function FeaturesButton({ colorMode }) {
+export default function FeaturesQuadrada({ colorMode }) {
   const [visible, setVisible] = useState(false);
   const [modalTitle, setModalTitle] = useState("");
   const [modalSubtitle, setModalSubtitle] = useState("");
@@ -45,18 +46,18 @@ export default function FeaturesButton({ colorMode }) {
       >
         <SectionHeader
           className={`text-center ${textClass}`}
-          miniTitle={content.texts.features.miniTag}
-          sectionHeaderTitle={content.texts.features.title}
-          sectionHeaderSubtitle={content.texts.features.subtitle}
+          miniTitle={content.texts.featuresQuadrdada.miniTag}
+          sectionHeaderTitle={content.texts.featuresQuadrdada.title}
+          sectionHeaderSubtitle={content.texts.featuresQuadrdada.subtitle}
           titleColorSet={textClass}
           subtitleColorSet={textClass}
         />
         <SectionWrapper>
           <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">
-            {[1, 2, 3, 4].map((i) => {
-              const card = content.texts.features[`card${i}`];
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => {
+              const card = content.texts.featuresQuadrdada[`card${i}`];
               return (
-                <FeatureImgOnBgCardButton
+                <FeaturesModalCards
                   key={i}
                   bgImg={card.img}
                   title={card.title}
@@ -67,8 +68,8 @@ export default function FeaturesButton({ colorMode }) {
                     onClick(
                       card.title,
                       <div>
-                        <ServiceDetailCard
-                          img={card.img}
+                        <ServiceFeaturesQuadrdada
+                          //   img={card.img}
                           description={card.description}
                           buttonIcon={card.icon}
                           buttonLabel={card.buttonLabelModal}

@@ -14,6 +14,8 @@ import "react-image-gallery/styles/css/image-gallery.css";
 import img1 from "../../assets/imgs/about/imgGaleria1.webp";
 import img2 from "../../assets/imgs/about/imgGaleria2.webp";
 import img3 from "../../assets/imgs/about/imgGaleria3.webp";
+import img4 from "../../assets/imgs/about/imgGaleria4.webp";
+import img5 from "../../assets/imgs/about/imgGaleria5.webp";
 
 export default function About({
   modal = true,
@@ -47,6 +49,14 @@ export default function About({
     {
       original: img3,
       thumbnail: img3,
+    },
+    {
+      original: img4,
+      thumbnail: img4,
+    },
+    {
+      original: img5,
+      thumbnail: img5,
     },
   ];
 
