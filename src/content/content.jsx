@@ -4,8 +4,8 @@ import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
-import modelo1 from "../assets/imgs/modelos/modelo1.png";
-import modelo2 from "../assets/imgs/modelos/modelo2.png";
+import modelo1 from "../assets/imgs/modelos/modelo1.webp";
+import modelo2 from "../assets/imgs/modelos/modelo2.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -654,10 +654,10 @@ const content = {
       },
     },
     modelosJuridicos: {
-      miniTag: "NÚCLEOS DE ATUAÇÃO",
-      title: "Atenção e dedicação a cada caso",
+      miniTag: "PRODUTOS JURÍDICOS",
+      title: "Publicações Acadêmicas em Direito",
       subtitle:
-        "Nossa banca atua com atendimento artesanal, ético e personalizado.",
+        "Artigos que conectam o Direito a temas sociais, culturais e ambientais, ampliando a compreensão jurídica contemporânea.",
       imgFeatures: imgFeatures,
       imgDivisor: imgDivisor,
       card1: {

@@ -47,9 +47,9 @@ export default function ModelosJuridicos({ colorMode }) {
       >
         <SectionHeader
           className={`text-center ${textClass}`}
-          miniTitle={content.texts.featuresQuadrdada.miniTag}
-          sectionHeaderTitle={content.texts.featuresQuadrdada.title}
-          sectionHeaderSubtitle={content.texts.featuresQuadrdada.subtitle}
+          miniTitle={content.texts.modelosJuridicos.miniTag}
+          sectionHeaderTitle={content.texts.modelosJuridicos.title}
+          sectionHeaderSubtitle={content.texts.modelosJuridicos.subtitle}
           titleColorSet={textClass}
           subtitleColorSet={textClass}
         />
