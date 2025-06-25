@@ -10,6 +10,7 @@ export default function ServiceFeaturesQuadrdada(props) {
     buttonIcon,
     buttonLink,
     bgPosition,
+    button = true, // por padrão, mostra o botão
   } = props;
 
   return (
@@ -21,14 +22,17 @@ export default function ServiceFeaturesQuadrdada(props) {
           </h1>
           <p className="text-paragraph3">{description}</p>
         </div>
-        <div className="">
-          <Button
-            label={buttonLabel}
-            icon={buttonIcon}
-            buttonLink={buttonLink}
-            animation={false}
-          />
-        </div>
+
+        {button && (
+          <div>
+            <Button
+              label={buttonLabel}
+              icon={buttonIcon}
+              buttonLink={buttonLink}
+              animation={false}
+            />
+          </div>
+        )}
       </div>
     </div>
   );
