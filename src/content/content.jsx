@@ -4,6 +4,8 @@ import heroImgDesktop from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import bgHeroImg from "../assets/imgs/hero/bgHeroInfluencer.webp";
 import heroDefaultImg from "../assets/imgs/hero/lawHero.jpg";
 import backgroundPersonMobile from "../assets/imgs/hero/bgHeroMobile.webp";
+import modelo1 from "../assets/imgs/modelos/modelo1.webp";
+import modelo2 from "../assets/imgs/modelos/modelo2.webp";
 
 import imgFeatures from "../assets/imgs/features/imgServices.jpg";
 import imgDivisor from "../assets/imgs/features/imgDivisor.jpg";
@@ -649,6 +651,60 @@ const content = {
           title: "A_Definir",
           subtitle: "A_Definir",
         },
+      },
+    },
+    modelosJuridicos: {
+      miniTag: "PRODUTOS JURÍDICOS",
+      title: "Publicações Acadêmicas em Direito",
+      subtitle:
+        "Artigos que conectam o Direito a temas sociais, culturais e ambientais, ampliando a compreensão jurídica contemporânea.",
+      imgFeatures: imgFeatures,
+      imgDivisor: imgDivisor,
+      card1: {
+        img: modelo1,
+        title: (
+          <p>
+            Direito, Linguagem e Poder - entre a liberdade e os discursos de
+            dominação 18 de mar de 2019
+          </p>
+        ),
+        subtitle: "",
+        description: (
+          <div>
+            O artigo “O Retrato da Sexualidade Transgênera: de Lili Elbe aos
+            dias atuais” aborda o tema trangeneridade e sua interface com o
+            direito. Para tanto a pesquisadora aborda a vida das artistas: Lili
+            Elbe (Eddie Redmayne) e Laerte Coutinho e como um dos referenciais
+            teóricos: Judith Butler. Organizador: Émilien Vilas Boas Reis, Pós
+            Doutor em Filosofia pela FLUP-Portugal Apoio: da Escola Superior de
+            Direito Dom Helder Câmara.
+          </div>
+        ),
+        imgModal: modelo1,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card2: {
+        img: modelo2,
+        title: (
+          <p>Da Filosofia do Ambiente ao Direito Ambiental 18 de mar de 2019</p>
+        ),
+        subtitle: "",
+        description: (
+          <div>
+            O artigo "O Espaço Urbano como Ambiente Cultural: as mídias sociais
+            como ampliação do conceito de espaço público". Pesquisadoras: Lílian
+            Oliveira e Rogéria Maciel (doutora em artes visuais pela UBA).
+            Demais artigos de autoria dos coautores. Organizadores: Marcelo
+            Antônio Rocha e Émilien Vilas Boas Reis. Apoio: Escola Superior de
+            Direito Dom Hélder Câmara e Universidade Federal da Bahia.
+          </div>
+        ),
+        imgModal: modelo2,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
       },
     },
     maps: {

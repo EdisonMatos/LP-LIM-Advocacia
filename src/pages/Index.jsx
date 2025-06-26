@@ -16,6 +16,7 @@ import BlogPosts from "../components/sections/BlogPosts";
 import SectionForm from "../components/sections/SectionForm";
 import FeaturesQuadrada from "../components/sections/FeaturesQuadrada";
 import ButtonsSection from "../components/sections/ButtonsSection";
+import ModelosJuridicos from "../components/sections/ModelosJuridicos";
 
 export default function Index() {
   // Altere esta constante para: 'default', 'light' ou 'dark'
@@ -54,6 +55,7 @@ export default function Index() {
       <SectionForm />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
+      <ModelosJuridicos />
       {/* <Maps colorMode={colorMode} /> */}
       {/* <Faq colorMode={colorMode} /> */}
       <FooterSocial
