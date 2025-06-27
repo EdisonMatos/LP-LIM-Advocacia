@@ -106,8 +106,8 @@ export default function Steps({ colorMode }) {
                 Arte Digital e Festival de Arte Digital, Instituto Pedro
                 Moraleida Bernardes, cantora e compositora Julia Mestre, Editora
                 e Produtora Audiovisual Comunicação de Fato, FLIARCOS, Coleção
-                “Caminhando pela História”, dentre tantos outros de igual
-                relevância.
+                “Caminhando pela História”, Festival de Curtas Flávio
+                Migliaccio, dentre tantos outros de igual relevância.
               </p>
             </Paragraphs>
           </div>
