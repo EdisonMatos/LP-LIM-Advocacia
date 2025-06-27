@@ -16,17 +16,17 @@ export default function Influencer({ appDownloadButtons }) {
     <>
       <div id="home">
         <div
-          className="w-full bg-center bg-repeat bg-cover font-mainFont desktop1:pt-[45px] desktop1:hidden"
+          className="w-full bg-center bg-repeat bg-cover font-mainFont desktop1:pt-[45px] desktop1:hidden "
           style={{
             backgroundImage: `url(${content.texts.hero.backgroundPerson})`,
           }}
         >
-          <div className="relative z-10 flex w-full bg-darker bg-opacity-0 items-left">
+          <div className="relative z-10 flex w-full bg-darker bg-opacity-0 items-left h-[600px]">
             <div className="absolute inset-0 bg-black bg-opacity-70 z-0" />
             <div className="w-full text-secondary justify-evenly">
               <div className="h-[130px] desktop1:h-[140px]" />
               <div className="flex flex-col-reverse gap-[10px] relative z-10 desktop1:flex-row desktop1:justify-between mx-auto w-[90%] max-w-[1215px] items-center pb-[64px] pt-[40px] desktop1:pt-[0px] desktop1:pb-[0px]">
-                <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]  ">
+                <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
                       <p className="mb-[16px] bg-primary text-colorBlack bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
@@ -125,7 +125,7 @@ export default function Influencer({ appDownloadButtons }) {
         </div>
         {/* desktop */}
         <div
-          className="hidden w-full bg-top bg-repeat bg-cover desktop1:flex font-mainFont"
+          className="hidden w-full bg-top bg-repeat bg-cover desktop1:flex font-mainFont h-[700px]"
           style={{
             backgroundImage: `url(${content.texts.hero.heroDesktop})`,
           }}

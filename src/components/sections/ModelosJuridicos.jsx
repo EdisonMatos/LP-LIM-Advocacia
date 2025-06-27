@@ -42,7 +42,7 @@ export default function ModelosJuridicos({ colorMode }) {
   return (
     <>
       <SectionArea
-        id={"service"}
+        id={"products"}
         className={`py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] ${bgClass}`}
       >
         <SectionHeader

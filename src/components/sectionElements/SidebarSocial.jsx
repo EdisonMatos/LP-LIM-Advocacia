@@ -2,6 +2,13 @@ import { useState, useEffect } from "react";
 import { Sidebar } from "primereact/sidebar";
 import { Button } from "primereact/button";
 import { Ripple } from "primereact/ripple";
+import { Cog } from "lucide-react";
+import { Store } from "lucide-react";
+import { Factory } from "lucide-react";
+import { Scale } from "lucide-react";
+import { Cpu } from "lucide-react";
+import { MessageCircleMore } from "lucide-react";
+
 import "primeicons/primeicons.css";
 import {
   HelpCircle,
@@ -141,10 +148,10 @@ export default function SidebarSocial({ colorMode }) {
                           <ul className="p-0 m-0 list-none">
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <UserSearch />
+                                <MessageCircleMore />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="service"
+                                    to="work"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -160,10 +167,10 @@ export default function SidebarSocial({ colorMode }) {
                             </li>
                             <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <ServerIcon />
+                                <Cog />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="about"
+                                    to="industry"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -177,18 +184,17 @@ export default function SidebarSocial({ colorMode }) {
                                 <Ripple />
                               </a>
                             </li>
-
-                            {/* <li>
+                            <li>
                               <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
-                                <HelpCircle />
+                                <Cpu />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="faq"
+                                    to="cores"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
                                     duration={500}
-                                    offset={-70}
+                                    offset={-50}
                                     href="#"
                                   >
                                     {content.texts.navbar.menuItems[3]}
@@ -196,108 +202,49 @@ export default function SidebarSocial({ colorMode }) {
                                 </span>
                                 <Ripple />
                               </a>
-                            </li> */}
+                            </li>
+                            <li>
+                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
+                                <Scale />
+                                <span className="ml-[8px]">
+                                  <Link
+                                    to="products"
+                                    className="align-text-top cursor-pointer"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-50}
+                                    href="#"
+                                  >
+                                    {content.texts.navbar.menuItems[4]}
+                                  </Link>
+                                </span>
+                                <Ripple />
+                              </a>
+                            </li>
+                            <li>
+                              <a className="flex items-center w-full p-3 transition-colors cursor-pointer p-ripple border-round text-700 hover:surface-100 transition-duration-150">
+                                <UserSearch />
+                                <span className="ml-[8px]">
+                                  <Link
+                                    to="about"
+                                    className="align-text-top cursor-pointer"
+                                    spy={true}
+                                    smooth={true}
+                                    duration={500}
+                                    offset={-50}
+                                    href="#"
+                                  >
+                                    {content.texts.navbar.menuItems[5]}
+                                  </Link>
+                                </span>
+                                <Ripple />
+                              </a>
+                            </li>
                           </ul>
                         </ul>
                       )}
                     </li>
-
-                    {/* Início Botões sociais */}
-
-                    {/* <hr className="m-5 mx-3 mb-8 border-top-1 surface-border" />
-                    <div className=" flex flex-col gap-[16px] w-full px-[2px]">
-                      <ButtonWithIconNavbar
-                        className="w-full"
-                        link={content.texts.infos.instagramProfile}
-                        label="Siga a gente no Instagram"
-                        icon={
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="lucide lucide-instagram"
-                          >
-                            <rect
-                              width="20"
-                              height="20"
-                              x="2"
-                              y="2"
-                              rx="5"
-                              ry="5"
-                            />
-                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
-                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5" />
-                          </svg>
-                        }
-                      />
-
-                      <ButtonWithIconNavbar
-                        className="w-full"
-                        link={content.texts.infos.facebookProfile}
-                        label="Siga a gente no Facebook"
-                        icon={
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="lucide lucide-facebook"
-                          >
-                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z" />
-                          </svg>
-                        }
-                      />
-
-                      <ButtonWithIconNavbar
-                        className="w-full"
-                        link={content.texts.infos.linkedInProfile}
-                        label="Siga a gente no Linkedin"
-                        icon={
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            width="20"
-                            height="20"
-                            viewBox="0 0 24 24"
-                            fill="none"
-                            stroke="currentColor"
-                            stroke-width="2"
-                            stroke-linecap="round"
-                            stroke-linejoin="round"
-                            class="lucide lucide-linkedin"
-                          >
-                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
-                            <rect width="4" height="12" x="2" y="9" />
-                            <circle cx="4" cy="4" r="2" />
-                          </svg>
-                        }
-                      />
-                    </div> */}
-
-                    {/* Fim Botões sociais */}
-
-                    {/* Início Foto do About */}
-
-                    {/* <a
-                      v-ripple
-                      className="bottom-0 left-0 flex items-center justify-center gap-2 p-3 m-3 transition-colors cursor-pointer phone2:absolute border-round text-700 hover:surface-100 transition-duration-150 p-ripple"
-                    >
-                      <img
-                        src={content.texts.about.imagem.img}
-                        alt={content.texts.about.imagem.alt}
-                        className="w-[100%]"
-                      />
-                    </a> */}
 
                     {/* Início Foto do About */}
                   </ul>

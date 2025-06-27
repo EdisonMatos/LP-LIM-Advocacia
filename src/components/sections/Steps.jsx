@@ -97,6 +97,7 @@ export default function Steps({ colorMode }) {
                 Autora de diversos artigos sobre arte, sistema jurídico e
                 democracia.
               </p>
+              <br />
               <p>
                 Em 2005, fundou a Diálogo - gestão cultural e Responsabilidade
                 Socio Ambiental na qual atua, até o presente momento, como
@@ -105,8 +106,11 @@ export default function Steps({ colorMode }) {
                 Arte Digital e Festival de Arte Digital, Instituto Pedro
                 Moraleida Bernardes, cantora e compositora Julia Mestre, Editora
                 e Produtora Audiovisual Comunicação de Fato, FLIARCOS, Coleção
-                “Caminhando pela História”, dentre tantos outros de igual
-                relevância.
+                “Caminhando pela História”, Festival de Curtas Flávio
+                Migliaccio, dentre tantos outros de igual relevância.
+                <br />
+                <br />
+                Estudante.
               </p>
             </Paragraphs>
           </div>
