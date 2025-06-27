@@ -108,6 +108,9 @@ export default function Steps({ colorMode }) {
                 e Produtora Audiovisual Comunicação de Fato, FLIARCOS, Coleção
                 “Caminhando pela História”, Festival de Curtas Flávio
                 Migliaccio, dentre tantos outros de igual relevância.
+                <br />
+                <br />
+                Estudante.
               </p>
             </Paragraphs>
           </div>
