@@ -15,7 +15,7 @@ import FeaturesParagraphs from "./FeaturesParagraphs";
 
 export default function SectionForm() {
   return (
-    <SectionArea className="bg-bgSectionDark " paddingtop={false}>
+    <SectionArea className="bg-bgSectionDark " paddingtop={false} id="work">
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop2:gap-0 desktop1:justify-between desktop1:items-start">
         <FeaturesParagraphs />
       </SectionWrapper>

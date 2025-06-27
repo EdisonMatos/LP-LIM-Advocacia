@@ -46,27 +46,29 @@ export default function ListGroupSocial({ colorMode = "default" }) {
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${getTextColor()}`}
     >
-      {["home", "service", "about"].map((section, index) => (
-        <li key={section} className="transition group h-[24px]">
-          <Link
-            to={section}
-            className="relative font-semibold cursor-pointer"
-            spy={true}
-            smooth={true}
-            duration={500}
-            offset={-50}
-          >
-            <span
-              className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+      {["home", "work", "industry", "cores", "products", "about"].map(
+        (section, index) => (
+          <li key={section} className="transition group h-[24px] text-center">
+            <Link
+              to={section}
+              className="relative font-semibold cursor-pointer"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-50}
             >
-              {content.texts.navbar.menuItems[index]}
-            </span>
-            <div
-              className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
-            />
-          </Link>
-        </li>
-      ))}
+              <span
+                className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
+              >
+                {content.texts.navbar.menuItems[index]}
+              </span>
+              <div
+                className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
+              />
+            </Link>
+          </li>
+        )
+      )}
 
       <li>
         <div className="flex gap-[10px] items-center">
