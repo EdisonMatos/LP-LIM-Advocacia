@@ -727,19 +727,19 @@ const content = {
         img: aboutImg1,
         alt: "Imagem profissional de escritório/advogado(a)",
       },
-      miniTag: "QUEM É A LIM ADVOCACIA FULL SERVICE",
-      title: "Minha trajetória",
+      miniTag: "SOBRE NÓS | LIM ADVOCACIA",
+      title: "",
       subtitle:
-        "Atuação técnica com acolhimento, clareza e foco na sua necessidade.",
+        "Atuação técnica na busca da satisfação dos seus direitos com acolhimento, transparência e foco na sua necessidade.",
       labelInstagram: "Siga-me no Instagram",
       labelFacebook: "Siga-me no Facebook",
       labelLinkedin: "Siga-me no LinkedIn",
       labelX: "Siga-me no X",
       paragraph: (
         <div>
-          Estamos em um ambiente pensado e estruturado com total privacidade,
-          sigilo e respeito ao seu momento. Aqui você é acolhido com atendimento
-          humanizado e orientação jurídica adequada para o seu caso.
+          A LIM Advocacia nasceu do sonho de oferecer um atendimento jurídico
+          verdadeiramente humanizado, em um ecossistema que compreende o Direito
+          como um sistema único, integrado e conectado à vida real das pessoas.
         </div>
       ),
       buttonModalLabelAbout: "Continuar lendo",
@@ -752,9 +752,10 @@ const content = {
           <br />
           Com uma atuação multidisciplinar e personalizada, contamos com o apoio
           de profissionais autônomos e parceiros – como psicólogos,
-          psicanalistas, peritos e contadores – que compartilham dos nossos
-          quatro eixos estruturantes: atendimento humanizado, técnica jurídica
-          adequada, excelência e transparência em todo o processo.
+          psicanalistas, peritos, contadores, engenheiros, dentre outros
+          profissionais – que compartilham dos nossos quatro eixos
+          estruturantes: atendimento humanizado, técnica jurídica adequada,
+          excelência e transparência em todo o processo.
           <br />
           <br />
           Acreditamos que cada cliente e cada caso são únicos. Por isso,
@@ -763,19 +764,22 @@ const content = {
           satisfação dos direitos pleiteados.
           <br />
           <br />
-          Embora sejamos entusiastas da tecnologia e da inovação, optamos, neste
-          momento, por não utilizar inteligência artificial ou automações na
-          elaboração de peças processuais. Para nós, cada petição é construída
-          manualmente, com total atenção técnica e estratégica, respeitando as
-          nuances de cada situação. A tecnologia, portanto, é aplicada apenas na
-          rotina administrativa, nunca no que se refere à produção jurídica do
-          escritório.
+          Embora sejamos entusiastas da tecnologia e da inovação, optamos por
+          não utilizar inteligência artificial ou automações para a elaboração
+          de peças processuais. Na LIM Advocacia, cada petição é construída
+          manualmente com estratégia e técnica jurídica adequada com atenção aos
+          detalhes de cada caso.
           <br />
           <br />
-          Nosso propósito é claro: apresentar soluções jurídicas eficazes, tanto
-          no âmbito administrativo quanto judicial, com a aplicação da técnica
-          jurídica adequada a cada caso, sempre com ética, estratégia e
-          comprometimento.
+          A tecnologia, portanto, é aplicada apenas na rotina administrativa,
+          nunca no que se refere à estruturação e à elaboração de peças
+          jurídicas, seja em âmbito administrativo ou contencioso.
+          <br />
+          <br />
+          Nosso propósito - Apresentar soluções jurídicas, tanto no âmbito
+          administrativo quanto judicial, por meio da aplicação da técnica
+          jurídica adequada a cada caso na busca da satisfação do Direito de
+          cada cliente.
           <br />
           <br />
           Nossos valores
@@ -784,7 +788,7 @@ const content = {
           - Técnica jurídica adequada <br />
           - Excelência <br />
           - Transparência <br />
-          - Estratégia e planejamento <br />
+          - Estratégia e Planejamento <br />
           - Resiliência Coragem <br />
         </p>
       ),
