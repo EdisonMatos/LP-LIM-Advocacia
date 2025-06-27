@@ -823,7 +823,7 @@ const content = {
     },
     steps: {
       miniTag: "SÓCIA FUNDADORA",
-      title: "QUEM É A DRA. LÍLIAN OLIVEIRA",
+      title: "",
       subtitle: "",
       img: imgSteps,
       alt: "",

@@ -97,6 +97,7 @@ export default function Steps({ colorMode }) {
                 Autora de diversos artigos sobre arte, sistema jurídico e
                 democracia.
               </p>
+              <br />
               <p>
                 Em 2005, fundou a Diálogo - gestão cultural e Responsabilidade
                 Socio Ambiental na qual atua, até o presente momento, como
