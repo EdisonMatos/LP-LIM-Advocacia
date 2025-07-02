@@ -665,7 +665,7 @@ const content = {
     },
     modelosJuridicos: {
       miniTag: "PRODUTOS JURÍDICOS",
-      title: "Publicações Acadêmicas em Direito",
+      title: "Publicações",
       subtitle:
         "Artigos que conectam o Direito a temas sociais, culturais e ambientais, ampliando a compreensão jurídica contemporânea.",
       imgFeatures: imgFeatures,
