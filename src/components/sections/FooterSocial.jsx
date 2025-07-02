@@ -23,6 +23,8 @@ import EmailSecundarioFooter from "../sectionElements/footer/EmailSecundarioFoot
 import PhoneTerciario from "../sectionElements/footer/PhoneTerciario.jsx";
 import TikTokFooter from "../sectionElements/footer/TikTokFooter.jsx";
 import ExpedienteSecondFooter from "../sectionElements/footer/ExpedienteSecondFooter.jsx";
+import EmailTerciarioFooter from "../sectionElements/footer/EmailTerciarioFooter.jsx";
+import EmailQuatroFooter from "../sectionElements/footer/EmailQuatroFooter.jsx";
 
 export default function FooterSocial({
   colorMode,
@@ -35,6 +37,8 @@ export default function FooterSocial({
   tiktok,
   addresSecundario,
   emailSecundario,
+  emailTerciario,
+  emailQuatro,
   phoneSecundario,
   phoneTerciario,
   expedientesecond,
@@ -73,6 +77,8 @@ export default function FooterSocial({
               {phoneTerciario && <PhoneTerciario />}
               <EmailFooter />
               {emailSecundario && <EmailSecundarioFooter />}
+              {emailTerciario && <EmailTerciarioFooter />}
+              {emailQuatro && <EmailQuatroFooter />}
               {addres && <AdressFooter />}
               {addresSecundario && <AdressSecundarioFooter />}
               <ExpedienteFooter />

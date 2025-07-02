@@ -68,7 +68,9 @@ const currentYear = new Date().getFullYear();
 export const infos = {
   name: "LIM Advocacia",
   email: "contato", // Email desejado pelo cliente
-  emailSecundario: "A_Definir", // Email desejado pelo cliente
+  emailSecundario: "dra.lilian.oliveira@limadv.com.br", // Email desejado pelo cliente
+  emailTerciario: "financeiro@limadv.com.br", // Email desejado pelo cliente
+  emailQuatro: "contratos@limadv.com.br", // Email desejado pelo cliente
   domain: "limadv.com.br", // Sem "www"
   phone: {
     ddd: "11",
@@ -1464,6 +1466,8 @@ const content = {
       phoneTerciario: `(${infos.phoneTerciario.ddd}) ${infos.phoneTerciario.firstPart}-${infos.phoneTerciario.secondPart}`,
       email: `${infos.email}@${infos.domain}`,
       emailSecundario: `${infos.emailSecundario}`,
+      emailTerciario: `${infos.emailTerciario}`,
+      emailQuatro: `${infos.emailQuatro}`,
       adress: infos.endereco,
       adressSecundario: infos.enderecoSecundario,
       officeHours: infos.expediente,
