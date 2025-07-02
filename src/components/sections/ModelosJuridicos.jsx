@@ -61,7 +61,7 @@ export default function ModelosJuridicos({ colorMode }) {
                 <FeaturesModelos
                   key={i}
                   bgImg={card.img}
-                  title={card.title}
+                  // title={card.title}
                   description={card.subtitle}
                   buttonLabel={card.buttonLabel}
                   animation
