@@ -62,27 +62,26 @@ export default function Steps({ colorMode }) {
                 De 2010 a 2018 foi membro-consultora da Comissão de Defesa dos
                 Direitos das Pessoas com Deficiência da OAB/MG, na qual teve a
                 honra de participar da criação dessa Comissão e coordenar os
-                trabalhos para a criação do projeto de lei que autoriza o uso
-                medicinal da canabis para o tratamento das pessoas com
-                deficiência com epilepsia e paralisia cerebral.
+                trabalhos para a criação do projeto de lei que regulamenta e
+                autoriza o uso medicinal da <i>canabis</i> para o tratamento das
+                pessoas com deficiência com epilepsia e paralisia cerebral.
               </p>
               <br />
               <p>
                 Advogada Bacharela pela Escola Superior de Direito Dom Hélder
                 Câmara, especialista em Planejamento Tributário: Incentivos
-                fiscais e holding pela FGV SP, especialista em Direito Penal
-                Econômico e em Direito do Entretenimento, Cultural, Direitos
-                Autorais e Propriedade Intelectual
-              </p>
-              <br />
-              <p>
-                Atua na área cultural e da indústria criativa há mais de 30
-                anos.
+                fiscais e Holding pela FGV SP; especialista em Direito Penal
+                Econômico - sua primeira atuação como criminalista foi marcada
+                pela conquista da Absolvição Sumária de sua cliente em um caso
+                sensível e complexo no qual os direitos de uma menor e de uma
+                advogada estavam em jogo. É, também, especialista em Direito do
+                Entretenimento, Cultural, Direitos Autorais e Propriedade
+                Intelectual com atuação há mais de 30 anos na área.
               </p>
               <br />
               <p>
                 Trabalhou no Tribunal de Justiça do Estado de Minas Gerais na
-                câmara civil e criminal e na Procuradoria da Fazenda Nacional
+                Câmara Civil e Criminal e na Procuradoria da Fazenda Nacional
                 com execuções fiscais e prescrição intercorrente de tributos
                 federais.
               </p>
@@ -90,7 +89,7 @@ export default function Steps({ colorMode }) {
               <p>
                 Atuou como Colunista e Cartunista do blog Núcleo Saravá Cultural
                 no qual contribuiu na luta contra o fascismo, no ano de 2022, em
-                sua coluna sobre arte-estética-direito e democracia
+                sua coluna sobre arte-estética-direito e democracia.
               </p>
               <br />
               <p>
@@ -106,8 +105,11 @@ export default function Steps({ colorMode }) {
                 Arte Digital e Festival de Arte Digital, Instituto Pedro
                 Moraleida Bernardes, cantora e compositora Julia Mestre, Editora
                 e Produtora Audiovisual Comunicação de Fato, FLIARCOS, Coleção
-                “Caminhando pela História”, Festival de Curtas Flávio
-                Migliaccio, dentre tantos outros de igual relevância.
+                “Caminhando pela História”, Festival de Cutas Flávio Migliaccio,
+                dentre tantos outros de igual relevância.
+              </p>
+              <br />
+              <p>
                 <br />
                 <br />
                 Estudante.
