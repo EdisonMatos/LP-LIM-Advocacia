@@ -34,6 +34,24 @@ export default function Influencer({ appDownloadButtons }) {
                       </p>
                     </div>
                   </MotionDivDownToUp>
+                  <div className="relative bg-center bg-cover bg-no-repeat text-white flex items-center px-6 md:px-16 h-[300px] md:h-[400px] ">
+                    {/* Sobreposição escura */}
+                    <div className="absolute inset-0 z-0"></div>
+
+                    {/* Conteúdo */}
+                    <div className="relative z-10 max-w-2xl ">
+                      <p className="text-4xl leading-tight font-serif">“</p>
+                      <p className="text-sm md:text-base leading-relaxed">
+                        QUEM ANDA NO TRILHO É TREM DE FERRO. <br />
+                        SOU ÁGUA QUE CORRE ENTRE PEDRAS <br />- LIBERDADE CAÇA
+                        JEITO.
+                      </p>
+                      <p className="text-right italic text-sm mt-2 tracking-wide">
+                        MANOEL DE BARROS
+                      </p>
+                      <p className="text-4xl text-right font-serif">”</p>
+                    </div>
+                  </div>
                   {/* <MotionDivDownToUp>
                   <div className="text-lighter flex justify-center desktop1:justify-start font-bold leading-[47px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-left text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                     <h1 className="">{content.texts.hero.title}</h1>
@@ -147,6 +165,31 @@ export default function Influencer({ appDownloadButtons }) {
                           </p>
                         </div>
                       </MotionDivDownToUp>
+                      <div className="relative bg-blue-600 bg-center bg-cover bg-no-repeat text-white flex items-center h-[300px] md:h-[400px] ">
+                        <div className="blue-900 w-[50%]"> </div>
+                        <div className="green-500 w-[50%] justify-end">
+                          <div className="relative z-10 w-[50%] bg-red-800 ">
+                            <p className="text-4xl leading-tight font-serif">
+                              “
+                            </p>
+                            <p className="text-sm md:text-base">
+                              Para ser grande, sê inteiro: nada <br />
+                              Teu exagera ou exclui. <br />- Sê todo em cada
+                              coisa. Põe quanto és <br />
+                              No mínimo que fazes. <br />
+                              Assim em cada lago a lua toda <br />
+                              Brilha, porque alta vive.
+                            </p>
+                            <p className=" text-[80px] text-right font-serif">
+                              ”
+                            </p>
+                            <p className="text-right italic text-sm mt-2 tracking-wide">
+                              Fernando Pessoa
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+
                       <MotionDivDownToUp>
                         <div className="text-lighter w-full flex justify-center desktop1:justify-center font-bold leading-[40px] phone3:leading-[42px] tablet1:leading-[70px] desktop1:leading-[60px] desktop2:leading-[65px] text-center desktop1:text-center text-title4 phone2:text-title5 phone3:text-title5 tablet1:text-title7">
                           <h1 className="">{content.texts.hero.title}</h1>
