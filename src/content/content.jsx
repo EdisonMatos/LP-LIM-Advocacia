@@ -143,7 +143,7 @@ const content = {
       ctaButtonTextResponsive: "Contato",
     },
     hero: {
-      miniTag: "ESCRITÓRIO FULL SERVICE EM SÃO PAULO - SP",
+      miniTag: "LIM Advocacia | Escritório Full Service em São Paulo",
       title: (
         <h1 className="mb-[16px]">
           <span className="text-primary"> </span>
