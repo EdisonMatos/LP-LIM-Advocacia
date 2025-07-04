@@ -109,11 +109,7 @@ export default function Steps({ colorMode }) {
                 dentre tantos outros de igual relevância.
               </p>
               <br />
-              <p>
-                <br />
-                <br />
-                Estudante.
-              </p>
+              <p>Estudante.</p>
             </Paragraphs>
           </div>
         </div>
