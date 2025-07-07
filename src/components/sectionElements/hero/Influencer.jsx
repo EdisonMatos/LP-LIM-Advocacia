@@ -34,22 +34,31 @@ export default function Influencer({ appDownloadButtons }) {
                       </p>
                     </div>
                   </MotionDivDownToUp>
-                  <div className="relative bg-center bg-cover bg-no-repeat text-white flex items-center px-6 md:px-16 h-[300px] md:h-[400px] ">
+                  <div className="relative bg-center bg-cover bg-no-repeat text-white justify-center flex items-center px-6 md:px-16 h-[300px] md:h-[400px] ">
                     {/* Sobreposição escura */}
                     <div className="absolute inset-0 z-0"></div>
 
                     {/* Conteúdo */}
                     <div className="relative z-10 max-w-2xl ">
                       <p className="text-4xl leading-tight font-serif">“</p>
-                      <p className="text-sm md:text-base leading-relaxed">
-                        QUEM ANDA NO TRILHO É TREM DE FERRO. <br />
-                        SOU ÁGUA QUE CORRE ENTRE PEDRAS <br />- LIBERDADE CAÇA
-                        JEITO.
-                      </p>
-                      <p className="text-right italic text-sm mt-2 tracking-wide">
-                        MANOEL DE BARROS
+                      <p className="text-sm md:text-base leading-relaxed w-[105%]">
+                        Para ser grande, sê inteiro: nada
+                        <br />
+                        Teu exagera ou exclui.
+                        <br />
+                        Sê todo em cada coisa. Põe quanto és
+                        <br />
+                        No mínimo que fazes.
+                        <br />
+                        Assim em cada lago a lua toda
+                        <br />
+                        Brilha, porque alta vive.
                       </p>
                       <p className="text-4xl text-right font-serif">”</p>
+
+                      <p className="text-right italic text-sm mt-2 tracking-wide">
+                        Fernando Pessoa
+                      </p>
                     </div>
                   </div>
                   {/* <MotionDivDownToUp>
@@ -165,28 +174,35 @@ export default function Influencer({ appDownloadButtons }) {
                           </p>
                         </div>
                       </MotionDivDownToUp>
-                      <div className="relative bg-blue-600 bg-center bg-cover bg-no-repeat text-white flex items-center h-[300px] md:h-[400px] ">
-                        <div className="blue-900 w-[50%]"> </div>
-                        <div className="green-500 w-[50%] justify-end">
-                          <div className="relative z-10 w-[50%] bg-red-800 ">
-                            <p className="text-4xl leading-tight font-serif">
-                              “
-                            </p>
-                            <p className="text-sm md:text-base">
-                              Para ser grande, sê inteiro: nada <br />
-                              Teu exagera ou exclui. <br />- Sê todo em cada
-                              coisa. Põe quanto és <br />
-                              No mínimo que fazes. <br />
-                              Assim em cada lago a lua toda <br />
-                              Brilha, porque alta vive.
-                            </p>
-                            <p className=" text-[80px] text-right font-serif">
-                              ”
-                            </p>
-                            <p className="text-right italic text-sm mt-2 tracking-wide">
-                              Fernando Pessoa
-                            </p>
-                          </div>
+                      <div className="relative bg-center bg-cover bg-no-repeat text-white justify-center flex items-center px-6 md:px-16 h-[300px] md:h-[400px] ">
+                        {/* Sobreposição escura */}
+                        <div className="absolute inset-0 z-0"></div>
+
+                        {/* Conteúdo */}
+                        <div className="relative z-10">
+                          <p className="text-[80px] leading-tight h-[70px] font-serif">
+                            “
+                          </p>
+                          <p className="text-sm md:text-base leading-relaxed">
+                            Para ser grande, sê inteiro: nada
+                            <br />
+                            Teu exagera ou exclui.
+                            <br />
+                            Sê todo em cada coisa. Põe quanto és
+                            <br />
+                            No mínimo que fazes.
+                            <br />
+                            Assim em cada lago a lua toda
+                            <br />
+                            Brilha, porque alta vive.
+                          </p>
+                          <p className="text-[80px] text-right h-[70px] font-serif">
+                            ”
+                          </p>
+
+                          <p className="text-right italic text-sm mt-2 tracking-wide">
+                            Fernando Pessoa
+                          </p>
                         </div>
                       </div>
 
