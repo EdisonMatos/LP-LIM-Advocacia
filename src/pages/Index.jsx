@@ -33,6 +33,12 @@ export default function Index() {
         influencer={true}
         mesclado={false}
       />
+      <SectionForm />
+
+      <ButtonsSection />
+      <FeaturesQuadrada />
+      <ModelosJuridicos />
+      <About modal={true} showGallery={false} colorMode={colorMode} />
       {/* <BlogPosts /> */}
       <Features
         colorMode={colorMode}
@@ -43,19 +49,14 @@ export default function Index() {
         sixCards={false}
         paragraphsModal={false}
       />
-      <About modal={true} showGallery={false} colorMode={colorMode} />
       <AboutInstagram
         colorMode={colorMode}
         instagram={true}
         socialPrint={true}
         linkedin={true}
       />
-      <FeaturesQuadrada />
-      <ButtonsSection />
-      <SectionForm />
       <Cta colorMode={colorMode} />
       <Steps colorMode={colorMode} />
-      <ModelosJuridicos />
       {/* <Maps colorMode={colorMode} /> */}
       {/* <Faq colorMode={colorMode} /> */}
       <FooterSocial
