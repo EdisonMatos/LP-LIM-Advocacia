@@ -82,7 +82,10 @@ export default function ModelosJuridicos({ colorMode }) {
                     )
                   }
                   colorMode={colorMode}
+                  
                 />
+                
+                
               );
             })}
           </div>
