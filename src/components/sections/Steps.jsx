@@ -63,7 +63,7 @@ export default function Steps({ colorMode }) {
                 Direitos das Pessoas com Deficiência da OAB/MG, na qual teve a
                 honra de participar da criação dessa Comissão e coordenar os
                 trabalhos para a criação do projeto de lei que regulamenta e
-                autoriza o uso medicinal da <i>canabis</i> para o tratamento das
+                autoriza o uso medicinal da canabis para o tratamento das
                 pessoas com deficiência com epilepsia e paralisia cerebral.
               </p>
               <br />
