@@ -174,7 +174,7 @@ export default function FeaturesParagraphs({ modal, colorMode }) {
                 />
                 <Button
                   size="small"
-                  label={content.texts.featuresSectionForm.card5.subtitle}
+                  label={content.texts.featuresSectionForm.card5.buttonLabel}
                   buttonLink={content.texts.links.ctaWhatsapp}
                   icon={
                     <svg
