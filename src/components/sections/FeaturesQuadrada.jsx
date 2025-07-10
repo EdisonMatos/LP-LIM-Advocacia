@@ -42,7 +42,7 @@ export default function FeaturesQuadrada({ colorMode }) {
     <>
       <SectionArea
         id={"cores"}
-        className={`py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] ${bgClass}`}
+        className={`py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] ${bgClass}`} paddingbot={false}
       >
         <SectionHeader
           className={`text-center ${textClass}`}
