@@ -25,7 +25,7 @@ export default function ButtonsSection({ colorMode = "default" }) {
 
   return (
     <>
-      <SectionArea className={`${bgClass}`} id="industry">
+      <SectionArea className={`${bgClass}`} id="industry" paddingbot={false}>
         <SectionWrapper>
           <SectionHeader
             className={`text-center ${textClass}`}
