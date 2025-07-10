@@ -824,7 +824,7 @@ const content = {
       ctaButtonText: "Entre em contato pelo WhatsApp",
     },
     steps: {
-      miniTag: "SÓCIA FUNDADORA",
+      miniTag: "Lílian Oliveira | Sócia Fundadora",
       title: "",
       subtitle: "",
       img: imgSteps,
@@ -859,21 +859,30 @@ const content = {
     buttonsSection: {
       miniTag: "INDÚSTRIA DAS ARTES",
       title: "LIM Advocacia | Consultoria Jurídica Especializada e Preventiva",
-      subtitle:
-        "Atuação preventiva em negócios criativos e culturais, com foco na legalidade e proteção da propriedade intelectual.",
-      labelButton1:
-        "Assessoria Jurídica para Projetos Culturais e do Audiovisual",
-      labelButton2: "Elaboração de contratos e Due Diligence contratual",
+      subtitle: "Atuação Consultiva e Contenciosa",
+      labelButton1: (
+        <p>
+          Assessoria Jurídica para <strong>Projetos Culturais</strong> e do
+          Audiovisual
+        </p>
+      ),
+      labelButton2: (
+        <p>
+          Elaboração de contratos, <i>Due Diligence</i> Contratual e Clearance
+        </p>
+      ),
       labelButton3: "Rede LIM Advocacia | soluções jurídicas para artistas",
       labelButton4:
         "Direitos autorais e conexos, Cultural, da Moda, do Audiovisual e do Entretenimento",
       labelButton5: "Propriedade Intelectual, Marcas e Direito Digital",
       labelButton6: "Recursos administrativos e judiciais",
       labelButton7: "Arbitragem",
+      labelButton8: "Direito Administrativo",
+      labelButton9: "Direito do Terceiro Setor",
     },
     featuresSectionForm: {
       miniTag: "PLANTÃO 24H",
-      title: "Atendimento jurídico imediato, a qualquer hora",
+      title: "",
       subtitle:
         "Precisa de ajuda agora? Nosso plantão 24 horas está disponível para casos urgentes. ",
       imgFeatures: imgFeatures,
@@ -976,7 +985,7 @@ const content = {
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Tirar dúvidas sobre certidões",
+        buttonLabel: "Emissão de CND",
       },
       card5: {
         img: featuresImg4,
@@ -1010,7 +1019,7 @@ const content = {
           </svg>
         ),
         buttonLabelModal: "Fale Conosco",
-        buttonLabel: "Saiba Mais",
+        buttonLabel: "Solicitar análise do caso",
       },
       card6: {
         img: featuresImg4,
@@ -1126,7 +1135,7 @@ const content = {
     footer: {
       copyrightLine: ` ${currentYear} - ${infos.name} - Todos os direitos reservados`,
       footerDivulgacaoText: "Gostaria de ter um site como este? Clique aqui",
-      midSectionName: "Até mais",
+      midSectionName: "Bem-vindo!",
       footerText:
         "Agradecemos sua visita! Esperamos que em breve você se torne nosso cliente e desfrute de todos os benefícios que oferecemos.",
       footerSocialText: "Siga a gente nas redes sociais:",

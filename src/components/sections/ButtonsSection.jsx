@@ -51,13 +51,16 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 icon={<FaWhatsapp size={24} />}
                 className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
               />
-              <Button
-                aria-label={content.texts.buttonsSection.labelButton3}
-                label={content.texts.buttonsSection.labelButton3}
-                animation
-                icon={<FaWhatsapp size={24} />}
-                className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
-              />
+              <div className="flex flex-col gap-2">
+                <Button
+                  aria-label={content.texts.buttonsSection.labelButton3}
+                  label={content.texts.buttonsSection.labelButton3}
+                  animation
+                  icon={<FaWhatsapp size={24} />}
+                  className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
+                />
+                <p className="font-bold text-paragraph1 m-auto">Seja membro da nossa REDE aqui</p>
+              </div>
               <Button
                 aria-label={content.texts.buttonsSection.labelButton4}
                 label={content.texts.buttonsSection.labelButton4}
@@ -82,6 +85,20 @@ export default function ButtonsSection({ colorMode = "default" }) {
               <Button
                 aria-label={content.texts.buttonsSection.labelButton7}
                 label={content.texts.buttonsSection.labelButton7}
+                animation
+                icon={<FaWhatsapp size={24} />}
+                className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
+              />
+              <Button
+                aria-label={content.texts.buttonsSection.labelButton8}
+                label={content.texts.buttonsSection.labelButton8}
+                animation
+                icon={<FaWhatsapp size={24} />}
+                className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
+              />
+              <Button
+                aria-label={content.texts.buttonsSection.labelButton9}
+                label={content.texts.buttonsSection.labelButton9}
                 animation
                 icon={<FaWhatsapp size={24} />}
                 className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
