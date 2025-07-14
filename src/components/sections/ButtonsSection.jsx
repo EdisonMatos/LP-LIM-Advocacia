@@ -36,20 +36,20 @@ export default function ButtonsSection({ colorMode = "default" }) {
             subtitleColorSet={textClass}
           />
           <div className="w-full px-4 py-6">
-            <div className="grid grid-cols-1 tablet1:grid-cols-2  desktop1:grid-cols-3 gap-4 justify-items-center">
+            <div className="grid grid-cols-1 tablet1:grid-cols-2 desktop1:grid-cols-3 gap-4 justify-items-center">
               <Button
                 aria-label={content.texts.buttonsSection.labelButton1}
                 label={content.texts.buttonsSection.labelButton1}
                 animation
                 icon={<FaWhatsapp size={24} />}
-                className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
               <Button
                 aria-label={content.texts.buttonsSection.labelButton2}
                 label={content.texts.buttonsSection.labelButton2}
                 animation
                 icon={<FaWhatsapp size={24} />}
-                className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
               <div className="flex flex-col gap-2">
                 <Button
@@ -57,7 +57,7 @@ export default function ButtonsSection({ colorMode = "default" }) {
                   label={content.texts.buttonsSection.labelButton3}
                   animation
                   icon={<FaWhatsapp size={24} />}
-                  className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                  className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
                   subtext="Seja membro da nossa REDE aqui"
                   buttonLink="https://chat.whatsapp.com/EQPRZ10i51O3gLHCNBLpZ9"
                 />
@@ -67,42 +67,42 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 label={content.texts.buttonsSection.labelButton4}
                 animation
                 icon={<FaWhatsapp size={24} />}
-                className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
               <Button
                 aria-label={content.texts.buttonsSection.labelButton5}
                 label={content.texts.buttonsSection.labelButton5}
                 animation
                 icon={<FaWhatsapp size={24} />}
-                className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
               <Button
                 aria-label={content.texts.buttonsSection.labelButton6}
                 label={content.texts.buttonsSection.labelButton6}
                 animation
                 icon={<FaWhatsapp size={24} />}
-                className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
               <Button
                 aria-label={content.texts.buttonsSection.labelButton7}
                 label={content.texts.buttonsSection.labelButton7}
                 animation
                 icon={<FaWhatsapp size={24} />}
-                className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
               <Button
                 aria-label={content.texts.buttonsSection.labelButton8}
                 label={content.texts.buttonsSection.labelButton8}
                 animation
                 icon={<FaWhatsapp size={24} />}
-                className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
               <Button
                 aria-label={content.texts.buttonsSection.labelButton9}
                 label={content.texts.buttonsSection.labelButton9}
                 animation
                 icon={<FaWhatsapp size={24} />}
-                className={`${textClass} min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
             </div>
           </div>
