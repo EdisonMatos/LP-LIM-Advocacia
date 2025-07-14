@@ -58,8 +58,9 @@ export default function ButtonsSection({ colorMode = "default" }) {
                   animation
                   icon={<FaWhatsapp size={24} />}
                   className={`${textClass} w-[250px] h-40 flex flex-col items-center justify-center text-center`}
+                  subtext="Seja membro da nossa REDE aqui"
+                  buttonLink="https://chat.whatsapp.com/EQPRZ10i51O3gLHCNBLpZ9"
                 />
-                <p className="font-bold text-paragraph1 m-auto">Seja membro da nossa REDE aqui</p>
               </div>
               <Button
                 aria-label={content.texts.buttonsSection.labelButton4}
