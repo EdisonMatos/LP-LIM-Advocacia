@@ -72,7 +72,7 @@ export default function Button({
               </p>
             </div>
             {subtext && (
-              <span className="text-xs mb-[-15px] font-light font-mainFont leading-tight opacity-80">
+              <span className="text-xs font-light font-mainFont leading-tight opacity-80 underline">
                 {subtext}
               </span>
             )}
