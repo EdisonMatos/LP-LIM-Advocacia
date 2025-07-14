@@ -33,7 +33,7 @@ export default function Steps({ colorMode }) {
         </MotionDivDownToUp>
         <div className="desktop1:w-[550px] desktop2:w-[570px]">
           <SectionHeader
-            className="hidden text-center desktop1:flex"
+            className="hidden text-center desktop1:flex "
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
@@ -41,24 +41,24 @@ export default function Steps({ colorMode }) {
             titleColorSet={titleColor}
           />
           <SectionHeader
-            className="text-center desktop1:hidden"
+            className="text-center desktop1:hidden mt-12 tablet1:mt-14"
             miniTitle={content.texts.steps.miniTag}
             sectionHeaderTitle={content.texts.steps.title}
             sectionHeaderSubtitle={content.texts.steps.subtitle}
             color={colorMode ? "light" : ""}
-            type={colorMode ? "" : "article"}
+            type="article"
             colorMode={colorMode}
           />
 
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] text-white desktop1:mt-0">
             <Paragraphs>
-              <p>
+              <p className="text-justify">
                 Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura
                 desde 2014, iniciou sua atuação na FUNARTE e atualmente atua no
                 IBRAM, IPHAN e FBN na análise de projetos de alta complexidade.
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 De 2010 a 2018 foi membro-consultora da Comissão de Defesa dos
                 Direitos das Pessoas com Deficiência da OAB/MG, na qual teve a
                 honra de participar da criação dessa Comissão e coordenar os
@@ -67,7 +67,7 @@ export default function Steps({ colorMode }) {
                 pessoas com deficiência com epilepsia e paralisia cerebral.
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 Advogada Bacharela pela Escola Superior de Direito Dom Hélder
                 Câmara, especialista em Planejamento Tributário: Incentivos
                 fiscais e Holding pela FGV SP; especialista em Direito Penal
@@ -79,25 +79,25 @@ export default function Steps({ colorMode }) {
                 Intelectual com atuação há mais de 30 anos na área.
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 Trabalhou no Tribunal de Justiça do Estado de Minas Gerais na
                 Câmara Civil e Criminal e na Procuradoria da Fazenda Nacional
                 com execuções fiscais e prescrição intercorrente de tributos
                 federais.
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 Atuou como Colunista e Cartunista do blog Núcleo Saravá Cultural
                 no qual contribuiu na luta contra o fascismo, no ano de 2022, em
                 sua coluna sobre arte-estética-direito e democracia.
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 Autora de diversos artigos sobre arte, sistema jurídico e
                 democracia.
               </p>
               <br />
-              <p>
+              <p className="text-justify">
                 Em 2005, fundou a Diálogo - gestão cultural e Responsabilidade
                 Socio Ambiental na qual atua, até o presente momento, como
                 gestora responsável pela co-realização de projetos de grande
@@ -109,7 +109,7 @@ export default function Steps({ colorMode }) {
                 dentre tantos outros de igual relevância.
               </p>
               <br />
-              <p>Estudante.</p>
+              <p className="text-justify">Estudante.</p>
             </Paragraphs>
           </div>
         </div>

@@ -9,6 +9,7 @@ export default function Button({
   onClick,
   buttonLink,
   className,
+  subtext,
   textclassName = "",
   size,
   sizeFeatures,
@@ -61,7 +62,7 @@ export default function Button({
             className={`flex ${className} ${sizeFeatures} bg-primary flex-row items-center justify-around transition ${color} text-secondary desktop1:hover:scale-110`}
           >
             <div
-              className={`flex items-center text-center ${gap} min-h-[24px]`}
+              className={`flex items-center text-center ${gap} min-h-[24px] `}
             >
               {icon && <div className={`${buttonColor}`}>{icon}</div>}
               <p
@@ -70,6 +71,11 @@ export default function Button({
                 {label}
               </p>
             </div>
+            {subtext && (
+              <span className="text-xs mb-[-15px] font-light leading-tight opacity-80">
+                {subtext}
+              </span>
+            )}
           </button>
         </MotionDivDownToUp>
       ) : (
@@ -87,6 +93,11 @@ export default function Button({
               >
                 {label}
               </p>
+              {subtext && (
+                <span className="text-xs font-light leading-tight opacity-80">
+                  {subtext}
+                </span>
+              )}
             </div>
           </button>
         </div>

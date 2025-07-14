@@ -868,7 +868,8 @@ const content = {
       ),
       labelButton2: (
         <p>
-          Elaboração de contratos, <i>Due Diligence</i> Contratual e Clearance
+          Elaboração de contratos, <i>Due Diligence</i> Contratual e{" "}
+          <i>Clearance</i>
         </p>
       ),
       labelButton3: "Rede LIM Advocacia | soluções jurídicas para artistas",
