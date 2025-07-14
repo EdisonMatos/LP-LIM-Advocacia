@@ -861,7 +861,7 @@ const content = {
       title: "LIM Advocacia | Consultoria Jurídica Especializada e Preventiva",
       subtitle: "Atuação Consultiva e Contenciosa",
       labelButton1: (
-        <p>
+        <p className="w-full">
           Assessoria Jurídica para <strong>Projetos Culturais</strong> e do
           Audiovisual
         </p>
