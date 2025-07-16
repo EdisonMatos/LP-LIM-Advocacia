@@ -27,14 +27,14 @@ export default function SectionHeader({
       miniTitleTextColor = "text-white";
       titleColor = titleColorSet ?? "text-white";
       subtitleColor = subtitleColorSet ?? "text-white";
-      if (miniTitleBgColor) miniTitleBgColor = "bg-bgSectionDark";
+      if (miniTitleBgColor) miniTitleBgColor = "bg-gradient-to-t from-[#877B51] to-[#b1ac99]";
       break;
     case "light":
     default:
       miniTitleTextColor = "text-black";
       titleColor = titleColorSet ?? "text-white";
       subtitleColor = subtitleColorSet ?? "text-white";
-      if (miniTitleBgColor) miniTitleBgColor = "bg-primary";
+      if (miniTitleBgColor) miniTitleBgColor = "bg-gradient-to-t from-[#877B51] to-[#b1ac99]";
       break;
   }
 
