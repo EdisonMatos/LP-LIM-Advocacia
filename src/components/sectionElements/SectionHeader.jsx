@@ -28,7 +28,7 @@ export default function SectionHeader({
       titleColor = titleColorSet ?? "text-white";
       subtitleColor = subtitleColorSet ?? "text-white";
       if (miniTitleBgColor)
-        miniTitleBgColor = "bg-gradient-to-t from-[#877B51] to-[#FFFF00]";
+        miniTitleBgColor = "bg-gradient-to-t from-[#877B51] to-[#ffe27e]";
       break;
     case "light":
     default:
@@ -36,7 +36,7 @@ export default function SectionHeader({
       titleColor = titleColorSet ?? "text-white";
       subtitleColor = subtitleColorSet ?? "text-white";
       if (miniTitleBgColor)
-        miniTitleBgColor = "bg-gradient-to-t from-[#877B51] to-[#FFFF00]";
+        miniTitleBgColor = "bg-gradient-to-t from-[#877B51] to-[#ffe27e]";
       break;
   }
 
