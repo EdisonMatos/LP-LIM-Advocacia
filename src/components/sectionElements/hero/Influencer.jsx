@@ -29,7 +29,7 @@ export default function Influencer({ appDownloadButtons }) {
                 <div className="flex  flex-col w-full desktop1:w-[50%] desktop1:mr-[20px]">
                   <MotionDivDownToUp>
                     <div className="flex justify-center w-auto text-center desktop1:justify-start desktop1:text-left font-secondFont text-paragraph4">
-                      <p className="mb-[16px] bg-gradient-to-t from-[#877B51] to-[#FFFF00] text-black bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
+                      <p className="mb-[16px] bg-gradient-to-t from-[#877B51] to-[#ffe27e] text-black bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
                         {content.texts.hero.miniTag}
                       </p>
                     </div>
@@ -169,7 +169,7 @@ export default function Influencer({ appDownloadButtons }) {
                     <div className="flex flex-col w-full desktop1:w-full ">
                       <MotionDivDownToUp>
                         <div className="flex justify-center w-auto text-center desktop1:justify-center desktop1:text-left font-secondFont text-paragraph4">
-                          <p className="mb-[16px] bg-gradient-to-t from-[#877B51] to-[#FFFF00] bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
+                          <p className="mb-[16px] bg-gradient-to-t from-[#877B51] to-[#ffe27e] bg-opacity-100 rounded-md px-[16px] py-[6px] inline-block text-paragraph2">
                             {content.texts.hero.miniTag}
                           </p>
                         </div>
