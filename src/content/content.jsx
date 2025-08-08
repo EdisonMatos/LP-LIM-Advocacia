@@ -521,10 +521,18 @@ const content = {
         subtitle: "",
         description: (
           <div>
-            Atuação na defesa em processos relacionados a crimes contra a ordem
-            econômica, financeira e tributária. Especialista em procedimentos
-            criminais complexos e acompanhamento estratégico desde a
-            investigação até o julgamento.
+            O Núcleo de Direito Penal e Processual Penal atua na área criminal
+            em geral tanto no contencioso quanto no consultivo, com atuação em
+            todas as instâncias judiciais.
+            <br />
+            Acompanhamos desde o inquérito policial, ações penais originárias
+            até a fase recursal.
+            <br />
+            Áreas específicas: direito penal econômico, penal ambiental, penal
+            eleitoral, penal financeiro e tributário, lavagem de capitais, penal
+            concorrencial, penal falimentar, crimes contra a honra, crimes
+            funcionais, crimes licitatórios, Lei de organizações criminosas,
+            crimes de direitos autorais, dentre outros.
           </div>
         ),
         imgModal: imgQuadrada2,
@@ -557,6 +565,13 @@ const content = {
             Atendimento humanizado e sigiloso em casos de violência doméstica e
             familiar. Acompanhamento jurídico completo para medidas protetivas,
             representação legal e garantia dos direitos da vítima.
+            <br />
+            ▪ Pedido de Medida Protetiva;
+            <br />
+            ▪ Pedido de Revogação de Medida Protetiva;
+            <br />
+            ▪ Acompanhamento do Inquérito Policial;
+            <br />▪ Habeas Corpus
           </div>
         ),
         imgModal: imgQuadrada4,
@@ -571,7 +586,7 @@ const content = {
         description: (
           <div>
             Consultoria e atuação em aquisições, regularização de imóveis,
-            usucapião, reintegrações de posse e contratos de compra e venda.
+            usucapião, reintegração de posses e contratos de compra e venda.
             Defesa e garantia de direitos sobre bens imóveis e propriedades.
           </div>
         ),
@@ -602,9 +617,17 @@ const content = {
         subtitle: "A_Definir",
         description: (
           <div>
-            Atuação em procedimentos arbitrais nacionais e internacionais.
-            Solução eficiente de conflitos empresariais com foco na celeridade,
-            confidencialidade e segurança jurídica.
+            O Núcleo de Arbitragem atua na resolução de conflitos entre
+            indivíduos, entre empresas e indivíduos, bem como em conflitos
+            empresariais.
+            <br />
+            ▪ Gestão de conflitos e identificação da melhor solução para cada
+            situação específica;
+            <br />
+            ▪ Realizamos pesquisas e participamos de debates acerca da
+            arbitragem;
+            <br />▪ Estamos preparados para atuar de forma efetiva em
+            procedimentos arbitrais.
           </div>
         ),
         imgModal: imgQuadrada7,
@@ -631,7 +654,7 @@ const content = {
       },
       card9: {
         img: imgQuadrada9,
-        title: "Família e Sucessão",
+        title: "Famílias e Sucessão",
         subtitle: "A_Definir",
         description: (
           <div>
