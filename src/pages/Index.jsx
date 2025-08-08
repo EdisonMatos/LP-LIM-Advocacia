@@ -65,9 +65,6 @@ export default function Index() {
         addresSecundario={true}
         phoneSecundario={true}
         phoneTerciario={false}
-        emailSecundario={true}
-        emailTerciario={true}
-        emailQuatro={true}
         instagram={true}
         expedientesecond={false}
       />

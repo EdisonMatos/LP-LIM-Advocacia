@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { Dialog } from "primereact/dialog";
 import Button from "../interactives/Button";
 import content from "../../content/content";
 import { FaWhatsapp } from "react-icons/fa";
@@ -7,9 +9,18 @@ import SectionHeader from "../sectionElements/SectionHeader";
 import SectionWrapper from "../sectionElements/SectionWrapper";
 
 export default function ButtonsSection({ colorMode = "default" }) {
+  const [visible, setVisible] = useState(false);
+  const [modalTitle, setModalTitle] = useState("");
+  const [modalContent, setModalContent] = useState("");
+
   const navigate = useNavigate();
 
-  // Definir classes de tema
+  const openModal = (title, content) => {
+    setModalTitle(title);
+    setModalContent(content);
+    setVisible(true);
+  };
+
   const bgClasses = {
     dark: "bg-darker",
     light: "bg-lighter",
@@ -69,13 +80,44 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 icon={<FaWhatsapp size={24} />}
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
+
+              {/* BOTÃO 5 abre modal */}
               <Button
                 aria-label={content.texts.buttonsSection.labelButton5}
                 label={content.texts.buttonsSection.labelButton5}
                 animation
                 icon={<FaWhatsapp size={24} />}
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                onClick={() =>
+                  openModal(
+                    "Entre em contato",
+                    <p>
+                      O Núcleo de Propriedade Intelectual da LIM Advocacia
+                      assessora judicialmente todos os trâmites relacionados à
+                      matéria, incluindo o acompanhamento e registro de marcas,
+                      patentes, desenhos industriais e direito autoral e,
+                      também, a elaboração e negociação de contratos de
+                      licenciamento, cessão e uso de imagem e tecnologia.
+                      <br />
+                      Quanto ao registro no INPI, assessoramos em todas as
+                      etapas até a obtenção do registro.
+                      <br />
+                      Atuação estratégica no contencioso e proteção de direitos
+                      de propriedade industrial.
+                      <br />
+                      <br />
+                      <Button
+                        aria-label={content.texts.about.ctaButtonAriaLabel}
+                        label={content.texts.about.ctaButtonText}
+                        animation={false}
+                        className="hover:scale-105"
+                        icon={<FaWhatsapp size={24} />}
+                      />
+                    </p>
+                  )
+                }
               />
+
               <Button
                 aria-label={content.texts.buttonsSection.labelButton6}
                 label={content.texts.buttonsSection.labelButton6}
@@ -90,13 +132,46 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 icon={<FaWhatsapp size={24} />}
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
               />
+
+              {/* BOTÃO 8 abre modal */}
               <Button
                 aria-label={content.texts.buttonsSection.labelButton8}
                 label={content.texts.buttonsSection.labelButton8}
                 animation
                 icon={<FaWhatsapp size={24} />}
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                onClick={() =>
+                  openModal(
+                    "Título do Modal 8",
+                    <p>
+                      O Núcleo de Direito das Famílias é Sucessão atua nas mais
+                      variadas questões atinentes ao direito das Famílias e
+                      Sucessões, desde os direitos do nascituro ao falecimento,
+                      confecção de de pacto antenupcial, pacto de união estável,
+                      modificação do regime de bens, discussão envolvendo a
+                      guarda de menores, emancipação, casamento, união estável,
+                      dissolução de sociedades conjugais, regulamentação do
+                      direito de visita, pensão alimentícia, reconhecimento de
+                      paternidade, doações, venda de bens à sucessores,
+                      testamento, inventário judicial e extrajudicial, ações de
+                      conhecimento de união homoafetiva, entre outros.
+                      <br />
+                      Além disso, assessoramos e estruturamos planejamento
+                      patrimonial.
+                      <br />
+                      <br />
+                      <Button
+                        aria-label={content.texts.about.ctaButtonAriaLabel}
+                        label={content.texts.about.ctaButtonText}
+                        animation={false}
+                        className="hover:scale-105"
+                        icon={<FaWhatsapp size={24} />}
+                      />
+                    </p>
+                  )
+                }
               />
+
               <Button
                 aria-label={content.texts.buttonsSection.labelButton9}
                 label={content.texts.buttonsSection.labelButton9}
@@ -108,6 +183,22 @@ export default function ButtonsSection({ colorMode = "default" }) {
           </div>
         </SectionWrapper>
       </SectionArea>
+
+      {/* Modal estilo PrimeReact */}
+      <Dialog
+        header={modalTitle}
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: "50vw" }}
+        breakpoints={{
+          "4000px": "60vw",
+          "1024px": "70vw",
+          "641px": "85vw",
+        }}
+        className="font-secondFont"
+      >
+        {modalContent}
+      </Dialog>
     </>
   );
 }
