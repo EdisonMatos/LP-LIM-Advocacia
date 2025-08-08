@@ -108,7 +108,7 @@ export default function FooterSocial({
               <LinksNavegationFooter />
             </div>
           </div>
-          {/* <CopyrightFooter /> */}
+          <CopyrightFooter />
         </SectionWrapper>
       </SectionArea>
     </footer>

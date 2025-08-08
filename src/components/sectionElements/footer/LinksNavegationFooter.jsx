@@ -23,7 +23,7 @@ function LinksNavegationFooter() {
               </span>
             </Link>
           </div>
-          <div className="h-[36px] hover:underline">
+          <div className="h-[52px] hover:underline">
             <Link
               to="industry"
               className="cursor-pointer"
@@ -71,7 +71,7 @@ function LinksNavegationFooter() {
               </span>
             </Link>
           </div>
-          <div className="h-[36px] hover:underline">
+          <div className="h-[52px] hover:underline">
             <Link
               to="nucleo"
               className="cursor-pointer"
