@@ -898,10 +898,10 @@ const content = {
       labelButton3: "Rede LIM Advocacia | soluções jurídicas para artistas",
       labelButton4:
         "Direitos autorais e conexos, Cultural, da Moda, do Audiovisual e do Entretenimento",
-      labelButton5: "Propriedade Intelectual, Marcas e Direito Digital",
+      labelButton5: "Entre em contato",
       labelButton6: "Recursos administrativos e judiciais",
       labelButton7: "Arbitragem",
-      labelButton8: "Direito Administrativo",
+      labelButton8: "Entre em contato",
       labelButton9: "Direito do Terceiro Setor",
     },
     featuresSectionForm: {
