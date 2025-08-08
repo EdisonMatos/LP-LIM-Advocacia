@@ -12,7 +12,7 @@ function CopyrightFooter() {
           href="https://www.paperstreet.com.br"
         >
           {" "}
-          {content.texts.infos.footerDivulgacaoText}
+          {/* {content.texts.infos.footerDivulgacaoText} */}
         </a>
       </p>
     </div>
