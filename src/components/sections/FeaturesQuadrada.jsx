@@ -41,7 +41,7 @@ export default function FeaturesQuadrada({ colorMode }) {
   return (
     <>
       <SectionArea
-        id={"cores"}
+        id={"nucleo"}
         className={`py-[40px] tablet1:py-[64px] desktop1:py-[96px] desktop1:pb-[0px] ${bgClass}`} paddingbot={false}
       >
         <SectionHeader

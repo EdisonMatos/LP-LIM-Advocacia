@@ -142,7 +142,7 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
                 onClick={() =>
                   openModal(
-                    "Título do Modal 8",
+                    "Entre em contato",
                     <p>
                       O Núcleo de Direito das Famílias é Sucessão atua nas mais
                       variadas questões atinentes ao direito das Famílias e

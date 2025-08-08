@@ -46,7 +46,7 @@ export default function ListGroupSocial({ colorMode = "default" }) {
     <ul
       className={`h-14 hidden desktop1:flex my-auto items-center justify-end tablet1:items-center desktop1:gap-8 desktop2:gap-8 w-auto font-normal text-paragraph3 font-secondFont ${getTextColor()}`}
     >
-      {["home", "work", "industry", "cores", "products", "about"].map(
+      {["home", "work", "industry", "nucleo", "products", "about"].map(
         (section, index) => (
           <li key={section} className="transition group h-[24px] text-center">
             <Link
