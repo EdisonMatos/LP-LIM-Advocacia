@@ -88,7 +88,7 @@ export default function FooterSocial({
 
             <div className="flex flex-col gap-y-[16px] desktop1:w-[290px]">
               <MidTextFooter />
-              <ParagrapfFooter />
+              {/* <ParagrapfFooter /> */}
               <MotionDivDownToUp>
                 <p className="opacity-90">{content.texts.footerSocialText}</p>
                 <div className="mt-2 opacity-90">
@@ -108,7 +108,7 @@ export default function FooterSocial({
               <LinksNavegationFooter />
             </div>
           </div>
-          <CopyrightFooter />
+          {/* <CopyrightFooter /> */}
         </SectionWrapper>
       </SectionArea>
     </footer>
