@@ -685,9 +685,23 @@ const content = {
         subtitle: "A_Definir",
         description: (
           <div>
-            Assessoria em divórcios, inventários, guarda, pensão e testamentos.
-            Planejamento sucessório personalizado para proteção familiar e
-            organização legal dos bens com segurança e tranquilidade.
+            O Núcleo de Direito das Famílias é Sucessão atua nas mais variadas
+            questões atinentes ao direito das Famílias e Sucessões, desde os
+            direitos do nascituro ao falecimento, confecção de de pacto
+            antenupcial, pacto de união estável, modificação do regime de bens,
+            discussão envolvendo a guarda de menores, emancipação, casamento,
+            união estável, dissolução de sociedades conjugais, regulamentação do
+            direito de visita, pensão alimentícia, reconhecimento de
+            paternidade, doações, venda de bens à sucessores, testamento,
+            inventário judicial e extrajudicial, ações de conhecimento de união
+            homoafetiva, entre outros.
+            <br />
+            <br />▪ Ação de Alimentos;
+            <br />▪ Busca e apreensão de menor;
+            <br />▪ Ação de exoneração de Alimentos;
+            <br />▪ Ação Declaratória de Paternidade;
+            <br />▪ Ação de Divórcio Judicial e extrajudicial;
+            <br />▪ dentre outras ações.
           </div>
         ),
         imgModal: imgQuadrada9,
