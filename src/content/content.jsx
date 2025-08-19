@@ -213,7 +213,7 @@ const content = {
         subtitle:
           "Atuação estratégica na área cultural com foco em segurança jurídica para projetos, instituições e iniciativas criativas.",
         description: (
-          <div>
+          <div className="text-black/70">
             ▪ Due <i>Diligence</i> Contratual
             <br />▪ Elaboração de Contratos
             <br />▪ Constituição de empresas, associações, institutos e ONGs{" "}
@@ -247,7 +247,7 @@ const content = {
         subtitle:
           "Proteção jurídica para artistas, criadores e produtores, com suporte ágil e individualizado.",
         description: (
-          <div>
+          <div className="text-black/70">
             ▪ Recursos administrativos;
             <br />▪ Mandado de Segurança;
             <br />▪ Ação Anulatória;
@@ -283,7 +283,7 @@ const content = {
         subtitle:
           "Orientação especializada para pessoas físicas e jurídicas, com foco em segurança, clareza e estratégias personalizadas.",
         description: (
-          <div>
+          <div className="text-black/70">
             ▪ Diagnóstico jurídico personalizado
             <br />▪ Consultas jurídicas por demanda ou recorrentes
             <br />▪ Estratégias de prevenção de litígios
@@ -314,35 +314,50 @@ const content = {
         subtitle:
           "Além do foco cultural, atuamos de forma ampla e integrada nas seguintes áreas:",
         description: (
-          <div>
+          <div className="text-black/70">
             <strong>
-              Direito Cultural, Autoral, Propriedade Intelectual e da Indústria
-              Criativa
+              <p className="mb-2 text-black/80">
+                Direito Cultural, Autoral, Propriedade Intelectual e da
+                Indústria Criativa:
+              </p>
             </strong>
+            ▪ Leis de Incentivo à Cultura Registro de obras e marcas
             <br />
-            ▪ Leis de Incentivo à Cultura
-            <br />▪ Registro de obras e marcas
-            <br />▪ Estruturação de editais e projetos
-            <br />▪ Pareceres jurídicos e defesas administrativas
-            <br />▪ Elaboração e análise contratual
-            <br />▪ Arbitragem
+            ▪ Estruturação de editais e projetos
             <br />
+            ▪ Pareceres jurídicos e defesas administrativas
             <br />
-            <strong>Núcleo Tributário</strong>
+            ▪ Elaboração e análise contratual
             <br />
-            ▪ Emissão de certidões tributárias
-            <br />▪ Defesa em execução fiscal e dívida ativa
-            <br />▪ Denúncia espontânea
-            <br />▪ Recuperação de créditos
-            <br />▪ Transação tributária
-            <br />▪ Defesa administrativa e judicial
+            ▪ Arbitragem
             <br />
             <br />
-            <strong>Núcleo Criminal e Processo Penal</strong>
+            <strong>
+              <p className="mb-2 text-black/80">
+                {" "}
+                O Núcleo de Direito Tributário da LIM Advocacia atua com
+                execuções fiscais, contencioso administrativo e dívida ativa:
+              </p>
+            </strong>
+            ▪ Emissão de CNDs (certidões negativas de débitos).
+            <br />▪ Consultivo tributário, processos administrativos e
+            judiciais.
+            <br />▪ Transação Tributária;
+            <br />▪ Ação Anulatória;
+            <br />▪ Prescrição e Decadência;
+            <br />▪ Tutelas de Urgência;
+            <br />▪ Nulidades;
+            <br />▪ Manfado de Segurança;
             <br />
+            <br />
+            <strong>
+              <p className="mb-2 text-black/80">
+                Núcleo Criminal e Processo Penal:
+              </p>
+            </strong>
             ▪ Acompanhamento de inquérito policial
             <br /> ▪ ANPP (acordo de não persecução penal)
-            <br />▪ Habeas Corpus
+            <br />▪ <i>Habeas Corpus</i>
             <br />▪ Audiência de custódia
             <br />▪ Defesa processual
             <br />▪ Medidas protetivas e violência doméstica
@@ -571,7 +586,8 @@ const content = {
             ▪ Pedido de Revogação de Medida Protetiva;
             <br />
             ▪ Acompanhamento do Inquérito Policial;
-            <br />▪ Habeas Corpus
+            <br />
+            <i>▪ Habeas Corpus</i>
           </div>
         ),
         imgModal: imgQuadrada4,
@@ -585,9 +601,20 @@ const content = {
         subtitle: "A_Definir",
         description: (
           <div>
-            Consultoria e atuação em aquisições, regularização de imóveis,
-            usucapião, reintegração de posses e contratos de compra e venda.
-            Defesa e garantia de direitos sobre bens imóveis e propriedades.
+            O Núcleo Imobiliário e Direitos Reais da LIM Advocacia assessora em
+            todas as questões refrente a aquisição, alienação ou locação de
+            propriedade urbana e rural, especialmente no que tange a análise da
+            situação do imóvel e a estruturação e negociação de contratos de
+            compra e venda, permuta, de incorporação, de locação, de implantação
+            de empreendimentos imobiliários, de constituição de garantias, entre
+            outros.
+            <br />
+            <br />
+            ▪ Regularização de Imóveis;
+            <br />▪ Usucapião Extrajudicial e Judicial;
+            <br />▪ DDU - Desdobramento, desdobro e unificação;
+            <br />▪ Análise de Certidões Imobiliárias e Matrículas;
+            <br />▪ Adjudicação Compulsória.
           </div>
         ),
         imgModal: imgQuadrada5,
@@ -658,9 +685,23 @@ const content = {
         subtitle: "A_Definir",
         description: (
           <div>
-            Assessoria em divórcios, inventários, guarda, pensão e testamentos.
-            Planejamento sucessório personalizado para proteção familiar e
-            organização legal dos bens com segurança e tranquilidade.
+            O Núcleo de Direito das Famílias é Sucessão atua nas mais variadas
+            questões atinentes ao direito das Famílias e Sucessões, desde os
+            direitos do nascituro ao falecimento, confecção de de pacto
+            antenupcial, pacto de união estável, modificação do regime de bens,
+            discussão envolvendo a guarda de menores, emancipação, casamento,
+            união estável, dissolução de sociedades conjugais, regulamentação do
+            direito de visita, pensão alimentícia, reconhecimento de
+            paternidade, doações, venda de bens à sucessores, testamento,
+            inventário judicial e extrajudicial, ações de conhecimento de união
+            homoafetiva, entre outros.
+            <br />
+            <br />▪ Ação de Alimentos;
+            <br />▪ Busca e apreensão de menor;
+            <br />▪ Ação de exoneração de Alimentos;
+            <br />▪ Ação Declaratória de Paternidade;
+            <br />▪ Ação de Divórcio Judicial e extrajudicial;
+            <br />▪ dentre outras ações.
           </div>
         ),
         imgModal: imgQuadrada9,
