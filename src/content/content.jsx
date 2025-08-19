@@ -213,7 +213,7 @@ const content = {
         subtitle:
           "Atuação estratégica na área cultural com foco em segurança jurídica para projetos, instituições e iniciativas criativas.",
         description: (
-          <div>
+          <div className="text-black/70">
             ▪ Due <i>Diligence</i> Contratual
             <br />▪ Elaboração de Contratos
             <br />▪ Constituição de empresas, associações, institutos e ONGs{" "}
@@ -247,7 +247,7 @@ const content = {
         subtitle:
           "Proteção jurídica para artistas, criadores e produtores, com suporte ágil e individualizado.",
         description: (
-          <div>
+          <div className="text-black/70">
             ▪ Recursos administrativos;
             <br />▪ Mandado de Segurança;
             <br />▪ Ação Anulatória;
@@ -283,7 +283,7 @@ const content = {
         subtitle:
           "Orientação especializada para pessoas físicas e jurídicas, com foco em segurança, clareza e estratégias personalizadas.",
         description: (
-          <div>
+          <div className="text-black/70">
             ▪ Diagnóstico jurídico personalizado
             <br />▪ Consultas jurídicas por demanda ou recorrentes
             <br />▪ Estratégias de prevenção de litígios
