@@ -586,7 +586,8 @@ const content = {
             ▪ Pedido de Revogação de Medida Protetiva;
             <br />
             ▪ Acompanhamento do Inquérito Policial;
-            <br />▪ Habeas Corpus
+            <br />
+            <i>▪ Habeas Corpus</i>
           </div>
         ),
         imgModal: imgQuadrada4,
@@ -600,9 +601,20 @@ const content = {
         subtitle: "A_Definir",
         description: (
           <div>
-            Consultoria e atuação em aquisições, regularização de imóveis,
-            usucapião, reintegração de posses e contratos de compra e venda.
-            Defesa e garantia de direitos sobre bens imóveis e propriedades.
+            O Núcleo Imobiliário e Direitos Reais da LIM Advocacia assessora em
+            todas as questões refrente a aquisição, alienação ou locação de
+            propriedade urbana e rural, especialmente no que tange a análise da
+            situação do imóvel e a estruturação e negociação de contratos de
+            compra e venda, permuta, de incorporação, de locação, de implantação
+            de empreendimentos imobiliários, de constituição de garantias, entre
+            outros.
+            <br />
+            <br />
+            ▪ Regularização de Imóveis;
+            <br />▪ Usucapião Extrajudicial e Judicial;
+            <br />▪ DDU - Desdobramento, desdobro e unificação;
+            <br />▪ Análise de Certidões Imobiliárias e Matrículas;
+            <br />▪ Adjudicação Compulsória.
           </div>
         ),
         imgModal: imgQuadrada5,
