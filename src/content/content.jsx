@@ -314,35 +314,50 @@ const content = {
         subtitle:
           "Além do foco cultural, atuamos de forma ampla e integrada nas seguintes áreas:",
         description: (
-          <div>
+          <div className="text-black/70">
             <strong>
-              Direito Cultural, Autoral, Propriedade Intelectual e da Indústria
-              Criativa
+              <p className="mb-2 text-black/80">
+                Direito Cultural, Autoral, Propriedade Intelectual e da
+                Indústria Criativa:
+              </p>
             </strong>
+            ▪ Leis de Incentivo à Cultura Registro de obras e marcas
             <br />
-            ▪ Leis de Incentivo à Cultura
-            <br />▪ Registro de obras e marcas
-            <br />▪ Estruturação de editais e projetos
-            <br />▪ Pareceres jurídicos e defesas administrativas
-            <br />▪ Elaboração e análise contratual
-            <br />▪ Arbitragem
+            ▪ Estruturação de editais e projetos
             <br />
+            ▪ Pareceres jurídicos e defesas administrativas
             <br />
-            <strong>Núcleo Tributário</strong>
+            ▪ Elaboração e análise contratual
             <br />
-            ▪ Emissão de certidões tributárias
-            <br />▪ Defesa em execução fiscal e dívida ativa
-            <br />▪ Denúncia espontânea
-            <br />▪ Recuperação de créditos
-            <br />▪ Transação tributária
-            <br />▪ Defesa administrativa e judicial
+            ▪ Arbitragem
             <br />
             <br />
-            <strong>Núcleo Criminal e Processo Penal</strong>
+            <strong>
+              <p className="mb-2 text-black/80">
+                {" "}
+                O Núcleo de Direito Tributário da LIM Advocacia atua com
+                execuções fiscais, contencioso administrativo e dívida ativa:
+              </p>
+            </strong>
+            ▪ Emissão de CNDs (certidões negativas de débitos).
+            <br />▪ Consultivo tributário, processos administrativos e
+            judiciais.
+            <br />▪ Transação Tributária;
+            <br />▪ Ação Anulatória;
+            <br />▪ Prescrição e Decadência;
+            <br />▪ Tutelas de Urgência;
+            <br />▪ Nulidades;
+            <br />▪ Manfado de Segurança;
             <br />
+            <br />
+            <strong>
+              <p className="mb-2 text-black/80">
+                Núcleo Criminal e Processo Penal:
+              </p>
+            </strong>
             ▪ Acompanhamento de inquérito policial
             <br /> ▪ ANPP (acordo de não persecução penal)
-            <br />▪ Habeas Corpus
+            <br />▪ <i>Habeas Corpus</i>
             <br />▪ Audiência de custódia
             <br />▪ Defesa processual
             <br />▪ Medidas protetivas e violência doméstica
