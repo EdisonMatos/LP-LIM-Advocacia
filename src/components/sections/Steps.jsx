@@ -99,14 +99,14 @@ export default function Steps({ colorMode }) {
               <br />
               <p className="text-justify">
                 Em 2005, fundou a Diálogo - gestão cultural e Responsabilidade
-                Socio Ambiental na qual atua, até o presente momento, como
-                gestora responsável pela co-realização de projetos de grande
-                relevância para as artes e para cultura do país como: Bienal de
-                Arte Digital e Festival de Arte Digital, Instituto Pedro
-                Moraleida Bernardes, cantora e compositora Julia Mestre, Editora
-                e Produtora Audiovisual Comunicação de Fato, FLIARCOS, Coleção
-                “Caminhando pela História”, Festival de Cutas Flávio Migliaccio,
-                dentre tantos outros de igual relevância.
+                Socio Ambiental na qual atua como gestora responsável pela
+                co-realização de projetos de grande relevância para as artes e
+                para cultura do país como: Bienal de Arte Digital e Festival de
+                Arte Digital, Instituto Pedro Moraleida Bernardes, cantora e
+                compositora Julia Mestre, Editora e Produtora Audiovisual
+                Comunicação de Fato, FLIARCOS, Coleção “Caminhando pela
+                História”, Festival de Cutas Flávio Migliaccio, Se Baterem,
+                Catem!, dentre tantos outros de igual relevância.
               </p>
               <br />
               <p className="text-justify">Estudante.</p>

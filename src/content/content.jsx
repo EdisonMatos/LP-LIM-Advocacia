@@ -927,7 +927,8 @@ const content = {
           - Excelência <br />
           - Transparência <br />
           - Estratégia e Planejamento <br />
-          - Resiliência Coragem <br />
+          - Resiliência e Coragem
+          <br />
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
