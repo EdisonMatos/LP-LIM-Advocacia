@@ -90,7 +90,7 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
                 onClick={() =>
                   openModal(
-                    "Entre em contato",
+                    "Propriedade Intelectual, Marcas e Direito Digital",
                     <p>
                       O Núcleo de Propriedade Intelectual da LIM Advocacia
                       assessora judicialmente todos os trâmites relacionados à
@@ -131,6 +131,34 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 animation
                 icon={<FaWhatsapp size={24} />}
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
+                onClick={() =>
+                  openModal(
+                    "Arbitragem",
+                    <p>
+                      O Núcleo de Arbitragem atua na resolução de conflitos
+                      entre indivíduos, entre empresas e indivíduos, bem como em
+                      conflitos empresariais.
+                      <br />
+                      <br />
+                      ▪ Gestão de conflitos e identificação da melhor solução
+                      para cada situação específica;
+                      <br />
+                      ▪ Realizamos pesquisas e participamos de debates acerca da
+                      arbitragem;
+                      <br />
+                      ▪ Estamos preparados para atuar de forma efetiva em
+                      procedimentos arbitrais.
+                      <br /> <br />
+                      <Button
+                        aria-label={content.texts.about.ctaButtonAriaLabel}
+                        label={content.texts.about.ctaButtonText}
+                        animation={false}
+                        className="hover:scale-105"
+                        icon={<FaWhatsapp size={24} />}
+                      />
+                    </p>
+                  )
+                }
               />
 
               {/* BOTÃO 8 abre modal */}
@@ -142,7 +170,7 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
                 onClick={() =>
                   openModal(
-                    "Entre em contato",
+                    "Direito Administrativo",
                     <p>
                       O Núcleo de Direito das Famílias é Sucessão atua nas mais
                       variadas questões atinentes ao direito das Famílias e
@@ -154,7 +182,7 @@ export default function ButtonsSection({ colorMode = "default" }) {
                       direito de visita, pensão alimentícia, reconhecimento de
                       paternidade, doações, venda de bens à sucessores,
                       testamento, inventário judicial e extrajudicial, ações de
-                      conhecimento de união homoafetiva, entre outros.
+                      reconhecimento de união homoafetiva, entre outros.
                       <br />
                       Além disso, assessoramos e estruturamos planejamento
                       patrimonial.
