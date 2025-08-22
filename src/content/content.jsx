@@ -201,7 +201,7 @@ const content = {
       },
     },
     features: {
-      miniTag: "NÚCLEO INDÚSTRIA CRIATIVA CULTURAL E DAS ARTES",
+      miniTag: "INDÚSTRIA CRIATIVA",
       title: "Especialização jurídica no setor cultural e artístico",
       subtitle:
         "Apoio jurídico para impulsionar projetos culturais com segurança.",
