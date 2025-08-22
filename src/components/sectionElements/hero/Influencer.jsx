@@ -33,6 +33,11 @@ export default function Influencer({ appDownloadButtons }) {
                         {content.texts.hero.miniTag}
                       </p>
                     </div>
+                    <p className="font-mainFont text-white/50 m-auto text-center text-paragraph2">
+                      Atendimento 24h
+                      <br />
+                      Presencial e online para todo Brasil.
+                    </p>
                   </MotionDivDownToUp>
                   <div className="relative bg-center bg-cover bg-no-repeat text-white justify-center flex items-center px-6 md:px-16 h-[300px] md:h-[400px] ">
                     {/* Sobreposição escura */}
@@ -174,6 +179,11 @@ export default function Influencer({ appDownloadButtons }) {
                           </p>
                         </div>
                       </MotionDivDownToUp>
+                      <p className="font-mainFont text-white/50 m-auto text-center text-paragraph2">
+                        Atendimento 24h
+                        <br />
+                        Presencial e online para todo Brasil.
+                      </p>
                       <div className="relative bg-center bg-cover bg-no-repeat text-white justify-center flex items-center px-6 md:px-16 h-[300px] md:h-[400px] ">
                         {/* Sobreposição escura */}
                         <div className="absolute inset-0 z-0"></div>

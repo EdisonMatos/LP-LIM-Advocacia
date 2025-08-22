@@ -19,6 +19,8 @@ import imgQuadrada6 from "../assets/imgs/features/featuresQuadrada6.webp";
 import imgQuadrada7 from "../assets/imgs/features/featuresQuadrada7.webp";
 import imgQuadrada8 from "../assets/imgs/features/featuresQuadrada8.webp";
 import imgQuadrada9 from "../assets/imgs/features/featuresQuadrada9.webp";
+import imgQuadrada10 from "../assets/imgs/features/featuresQuadrada10.webp";
+import imgQuadrada11 from "../assets/imgs/features/featuresQuadrada11.webp";
 
 import aboutImg1 from "../assets/imgs/about/aboutImg.jpg";
 import imgAbout1 from "../assets/imgs/about/aboutImg1.jpg";
@@ -201,7 +203,7 @@ const content = {
       },
     },
     features: {
-      miniTag: "NÚCLEO INDÚSTRIA CRIATIVA CULTURAL E DAS ARTES",
+      miniTag: "INDÚSTRIA CRIATIVA",
       title: "Especialização jurídica no setor cultural e artístico",
       subtitle:
         "Apoio jurídico para impulsionar projetos culturais com segurança.",
@@ -540,8 +542,10 @@ const content = {
             em geral tanto no contencioso quanto no consultivo, com atuação em
             todas as instâncias judiciais.
             <br />
+            <br />
             Acompanhamos desde o inquérito policial, ações penais originárias
             até a fase recursal.
+            <br />
             <br />
             Áreas específicas: direito penal econômico, penal ambiental, penal
             eleitoral, penal financeiro e tributário, lavagem de capitais, penal
@@ -580,6 +584,7 @@ const content = {
             Atendimento humanizado e sigiloso em casos de violência doméstica e
             familiar. Acompanhamento jurídico completo para medidas protetivas,
             representação legal e garantia dos direitos da vítima.
+            <br />
             <br />
             ▪ Pedido de Medida Protetiva;
             <br />
@@ -702,6 +707,73 @@ const content = {
             <br />▪ Ação Declaratória de Paternidade;
             <br />▪ Ação de Divórcio Judicial e extrajudicial;
             <br />▪ dentre outras ações.
+            <br />
+            <br />
+            Além disso, assessoramos e estruturamos planejamento patrimonial
+          </div>
+        ),
+        imgModal: imgQuadrada9,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card10: {
+        img: imgQuadrada10,
+        title: "Direito Administrativo",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            O Núcleo de Direito Administrativo promove a adequada representação
+            dos clientes do escritório em processos e inquéritos administrativos
+            em trâmite junto à administração Pública Direta e Indireta,
+            Instituto Nacional de Propriedade Intelectual, Ministério da
+            Cultura, Conselho Nacional de Autorregulamentação Publicitária,
+            Tribunais de Contas dos estados, município e União, entre outros.
+            <br />
+            <br />
+            Análise de editais de concursos e licitações públicas.
+            <br />
+            <br />
+            Nosso objetivo é resolver questões burocráticas e acompanhar de
+            perto as mudanças na legislação, para que nossos clientes possam se
+            dedicar totalmente ao crescimento de seus negócios.
+            <br />
+            <br />
+            ▪ Elaboração de contratos;
+            <br />
+            ▪ Contencioso Administrativo;
+            <br />
+            ▪ Assessoria de Projetos em Concorrência Pública,
+            <br />
+            ▪ Ações decorrentes de Atos Normativos e Decisões;
+            <br />▪ Advocacia Preventiva.{" "}
+          </div>
+        ),
+        imgModal: imgQuadrada9,
+        icon: <FaWhatsapp size={24} />,
+        buttonLabelModal: "Fale Conosco",
+        buttonLabel: "Saiba Mais",
+      },
+      card11: {
+        img: imgQuadrada11,
+        title: "Propriedade Intelectual",
+        subtitle: "A_Definir",
+        description: (
+          <div>
+            O Núcleo de Propriedade Intelectual da LIM Advocacia assessora
+            judicialmente todos os trâmites relacionados à matéria, incluindo o
+            acompanhamento e registro de marcas, patentes, desenhos industriais
+            e direito autoral e, também, a elaboração e negociação de contratos
+            de licenciamento, cessão e uso de imagem e tecnologia.
+            <br />
+            <br />
+            Quanto ao registro no INPI, assessoramos em todas as etapas até a
+            obtenção do registro.
+            <br />
+            <br />
+            Atuação estratégica no contencioso e proteção de direitos de
+            propriedade industrial.
+            <br />
           </div>
         ),
         imgModal: imgQuadrada9,
@@ -855,7 +927,8 @@ const content = {
           - Excelência <br />
           - Transparência <br />
           - Estratégia e Planejamento <br />
-          - Resiliência Coragem <br />
+          - Resiliência e Coragem
+          <br />
         </p>
       ),
       ctaButtonAriaLabel: "Botão para entrar em contato",
@@ -882,7 +955,7 @@ const content = {
       backgroundImg: ctaWhatsappImgBg,
       miniTag: "FALE CONOSCO",
       title:
-        "LIM Advocacia está sediada em São Paulo com atuação em todos os estados da federação.",
+        "LIM Advocacia está sediada em São Paulo com atuação em REDE em todos os estados da federação. ",
       subtitle:
         "Todavia, a sócia fundadora, associados e correspondentes realizam atendimento presencial e online também em processos com tramitação em outros locais do país.",
       ctaButtonText: "Entre em contato pelo WhatsApp",
@@ -941,8 +1014,10 @@ const content = {
         "Direitos autorais e conexos, Cultural, da Moda, do Audiovisual e do Entretenimento",
       labelButton5: "Entre em contato",
       labelButton6: "Recursos administrativos e judiciais",
-      labelButton7: "Arbitragem",
-      labelButton8: "Entre em contato",
+      labelButton7:
+        "Elaboração e análise de contratos para projetos culturais e do audiovisual",
+      labelButton8:
+        "Constituição de empresas, associações e institutos com atuação cultural e social",
       labelButton9: "Direito do Terceiro Setor",
     },
     featuresSectionForm: {

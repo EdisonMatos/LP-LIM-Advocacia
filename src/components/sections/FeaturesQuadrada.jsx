@@ -54,7 +54,7 @@ export default function FeaturesQuadrada({ colorMode }) {
         />
         <SectionWrapper>
           <div className="flex flex-wrap justify-center desktop1:justify-evenly w-full gap-[36px] tablet1:gap-[24px] desktop1:w-[90%]">
-            {[1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => {
+            {[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11].map((i) => {
               const card = content.texts.featuresQuadrdada[`card${i}`];
               return (
                 <FeaturesModalCards
