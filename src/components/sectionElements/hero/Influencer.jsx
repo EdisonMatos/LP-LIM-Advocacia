@@ -33,7 +33,25 @@ export default function Influencer({ appDownloadButtons }) {
                         {content.texts.hero.miniTag}
                       </p>
                     </div>
-                    <p className="font-mainFont text-white/50 m-auto text-center text-paragraph2">
+
+                    <p className="font-mainFont flex flex-col gap-2 mt-3 text-white/50 m-auto text-center text-paragraph2">
+                      <span className="m-auto">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="24"
+                          height="24"
+                          viewBox="0 0 24 24"
+                          fill="none"
+                          stroke="currentColor"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          class="lucide lucide-map-pin-icon lucide-map-pin"
+                        >
+                          <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                          <circle cx="12" cy="10" r="3" />
+                        </svg>
+                      </span>
                       Atendimento 24h
                       <br />
                       Presencial e online para todo Brasil.
@@ -179,7 +197,24 @@ export default function Influencer({ appDownloadButtons }) {
                           </p>
                         </div>
                       </MotionDivDownToUp>
-                      <p className="font-mainFont text-white/50 m-auto text-center text-paragraph2">
+                      <p className="font-mainFont flex flex-col gap-2 mt-3 text-white/50 m-auto text-center text-paragraph2">
+                        <span className="m-auto">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            width="24"
+                            height="24"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            class="lucide lucide-map-pin-icon lucide-map-pin"
+                          >
+                            <path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0" />
+                            <circle cx="12" cy="10" r="3" />
+                          </svg>
+                        </span>
                         Atendimento 24h
                         <br />
                         Presencial e online para todo Brasil.
