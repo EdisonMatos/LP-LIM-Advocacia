@@ -756,7 +756,7 @@ const content = {
       },
       card11: {
         img: imgQuadrada11,
-        title: "Propriedade Intelectual, Marcas e Direito Digital",
+        title: "Propriedade Intelectual",
         subtitle: "A_Definir",
         description: (
           <div>
@@ -1012,7 +1012,7 @@ const content = {
       labelButton3: "Rede LIM Advocacia | soluções jurídicas para artistas",
       labelButton4:
         "Direitos autorais e conexos, Cultural, da Moda, do Audiovisual e do Entretenimento",
-      labelButton5: "Entre em contato",
+      labelButton5: "Propriedade Intelectual, Marcas e Direito Digital",
       labelButton6: "Recursos administrativos e judiciais",
       labelButton7:
         "Elaboração e análise de contratos para projetos culturais e do audiovisual",
