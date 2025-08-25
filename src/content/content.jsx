@@ -756,7 +756,7 @@ const content = {
       },
       card11: {
         img: imgQuadrada11,
-        title: "Propriedade Intelectual",
+        title: "Propriedade Intelectual, Marcas e Direito Digital",
         subtitle: "A_Definir",
         description: (
           <div>
