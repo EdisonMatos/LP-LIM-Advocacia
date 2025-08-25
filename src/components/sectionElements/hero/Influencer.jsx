@@ -175,7 +175,7 @@ export default function Influencer({ appDownloadButtons }) {
         </div>
         {/* desktop */}
         <div
-          className="hidden w-full bg-top bg-repeat bg-cover desktop1:flex font-mainFont h-[700px]"
+          className="hidden w-full bg-top bg-repeat bg-cover desktop1:flex font-mainFont h-[800px]"
           style={{
             backgroundImage: `url(${content.texts.hero.heroDesktop})`,
           }}
