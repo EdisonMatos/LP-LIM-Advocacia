@@ -88,34 +88,6 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 animation
                 icon={<FaWhatsapp size={24} />}
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
-                onClick={() =>
-                  openModal(
-                    "Propriedade Intelectual, Marcas e Direito Digital",
-                    <p>
-                      O Núcleo de Propriedade Intelectual da LIM Advocacia
-                      assessora judicialmente todos os trâmites relacionados à
-                      matéria, incluindo o acompanhamento e registro de marcas,
-                      patentes, desenhos industriais e direito autoral e,
-                      também, a elaboração e negociação de contratos de
-                      licenciamento, cessão e uso de imagem e tecnologia.
-                      <br />
-                      Quanto ao registro no INPI, assessoramos em todas as
-                      etapas até a obtenção do registro.
-                      <br />
-                      Atuação estratégica no contencioso e proteção de direitos
-                      de propriedade industrial.
-                      <br />
-                      <br />
-                      <Button
-                        aria-label={content.texts.about.ctaButtonAriaLabel}
-                        label={content.texts.about.ctaButtonText}
-                        animation={false}
-                        className="hover:scale-105"
-                        icon={<FaWhatsapp size={24} />}
-                      />
-                    </p>
-                  )
-                }
               />
 
               <Button
@@ -131,34 +103,7 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 animation
                 icon={<FaWhatsapp size={24} />}
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
-                onClick={() =>
-                  openModal(
-                    "Arbitragem",
-                    <p>
-                      O Núcleo de Arbitragem atua na resolução de conflitos
-                      entre indivíduos, entre empresas e indivíduos, bem como em
-                      conflitos empresariais.
-                      <br />
-                      <br />
-                      ▪ Gestão de conflitos e identificação da melhor solução
-                      para cada situação específica;
-                      <br />
-                      ▪ Realizamos pesquisas e participamos de debates acerca da
-                      arbitragem;
-                      <br />
-                      ▪ Estamos preparados para atuar de forma efetiva em
-                      procedimentos arbitrais.
-                      <br /> <br />
-                      <Button
-                        aria-label={content.texts.about.ctaButtonAriaLabel}
-                        label={content.texts.about.ctaButtonText}
-                        animation={false}
-                        className="hover:scale-105"
-                        icon={<FaWhatsapp size={24} />}
-                      />
-                    </p>
-                  )
-                }
+                buttonLink={content.texts.links.ctaWhatsapp}
               />
 
               {/* BOTÃO 8 abre modal */}
@@ -168,36 +113,7 @@ export default function ButtonsSection({ colorMode = "default" }) {
                 animation
                 icon={<FaWhatsapp size={24} />}
                 className={`min-w-[250px] max-w-[350px] h-40 flex flex-col items-center justify-center text-center`}
-                onClick={() =>
-                  openModal(
-                    "Direito Administrativo",
-                    <p>
-                      O Núcleo de Direito das Famílias é Sucessão atua nas mais
-                      variadas questões atinentes ao direito das Famílias e
-                      Sucessões, desde os direitos do nascituro ao falecimento,
-                      confecção de de pacto antenupcial, pacto de união estável,
-                      modificação do regime de bens, discussão envolvendo a
-                      guarda de menores, emancipação, casamento, união estável,
-                      dissolução de sociedades conjugais, regulamentação do
-                      direito de visita, pensão alimentícia, reconhecimento de
-                      paternidade, doações, venda de bens à sucessores,
-                      testamento, inventário judicial e extrajudicial, ações de
-                      reconhecimento de união homoafetiva, entre outros.
-                      <br />
-                      Além disso, assessoramos e estruturamos planejamento
-                      patrimonial.
-                      <br />
-                      <br />
-                      <Button
-                        aria-label={content.texts.about.ctaButtonAriaLabel}
-                        label={content.texts.about.ctaButtonText}
-                        animation={false}
-                        className="hover:scale-105"
-                        icon={<FaWhatsapp size={24} />}
-                      />
-                    </p>
-                  )
-                }
+                buttonLink={content.texts.links.ctaWhatsapp}
               />
 
               <Button

@@ -203,7 +203,7 @@ const content = {
       },
     },
     features: {
-      miniTag: "INDÚSTRIA CRIATIVA",
+      miniTag: "Indústria Criativa, das Artes e do Audiovisual",
       title: "Especialização jurídica no setor cultural e artístico",
       subtitle:
         "Apoio jurídico para impulsionar projetos culturais com segurança.",
@@ -521,10 +521,20 @@ const content = {
         subtitle: "",
         description: (
           <div>
-            Assessoria especializada na prevenção e resolução de questões
-            fiscais. Atuação em defesas administrativas e judiciais, recuperação
-            de créditos tributários e planejamento tributário estratégico para
-            empresas e pessoas físicas.
+            O Núcleo de Direito Tributário da LIM Advocacia atua com execuções
+            fiscais, contencioso administrativo e dívida ativa.
+            <br />
+            <br />
+            Emissão de CNDs (certidões negativas de débitos).
+            <br />
+            Consultivo tributário, processos administrativos e judiciais.
+            <br />
+            <br />▪ Transação Tributária;
+            <br />▪ Ação Anulatória;
+            <br />▪ Prescrição e Decadência;
+            <br />▪ Tutelas de Urgência;
+            <br />▪ Nulidades;
+            <br />▪ Mandado de Segurança
           </div>
         ),
         imgModal: imgQuadrada1,
@@ -994,7 +1004,7 @@ const content = {
       },
     },
     buttonsSection: {
-      miniTag: "INDÚSTRIA DAS ARTES",
+      miniTag: "Indústria Criativa, das Artes e do Audiovisual",
       title: "LIM Advocacia | Consultoria Jurídica Especializada e Preventiva",
       subtitle: "Atuação Consultiva e Contenciosa",
       labelButton1: (
@@ -1017,7 +1027,7 @@ const content = {
       labelButton7:
         "Elaboração e análise de contratos para projetos culturais e do audiovisual",
       labelButton8:
-        "Constituição de empresas, associações e institutos com atuação cultural e social",
+        "Constituição de empresas, ONGs e associações, acordo de sócios, apuração de haveres, retirada de sócios, dissolução de sociedades, dentre outros",
       labelButton9: "Direito do Terceiro Setor",
     },
     featuresSectionForm: {
