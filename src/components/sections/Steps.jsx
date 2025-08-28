@@ -53,9 +53,10 @@ export default function Steps({ colorMode }) {
           <div className="flex flex-wrap w-full justify-between gap-[32px] mt-[28px] text-white desktop1:mt-0">
             <Paragraphs>
               <p className="text-justify">
-                Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura
-                desde 2014, iniciou sua atuação na FUNARTE e atualmente atua no
-                IBRAM, IPHAN e FBN na análise de projetos de alta complexidade.
+                Lílian Oliveira é Advogada-Parecerista do Ministério da Cultura.
+                Em 2014, iniciou sua atuação como parecerista na FUNARTE e
+                atualmente atua no IBRAM, IPHAN e FBN na análise de projetos de
+                alta complexidade.
               </p>
               <br />
               <p className="text-justify">
