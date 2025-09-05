@@ -41,29 +41,40 @@ export default function About({
     {
       original: img1,
       thumbnail: img1,
+      originalAlt: "Primeira imagem da galeria",
+      thumbnailAlt: "Miniatura da primeira imagem",
     },
     {
       original: img2,
       thumbnail: img2,
+      originalAlt: "Segunda imagem da galeria",
+      thumbnailAlt: "Miniatura da segunda imagem",
     },
     {
       original: img3,
       thumbnail: img3,
+      originalAlt: "Terceira imagem da galeria",
+      thumbnailAlt: "Miniatura da terceira imagem",
     },
     {
       original: img4,
       thumbnail: img4,
+      originalAlt: "Quarta imagem da galeria",
+      thumbnailAlt: "Miniatura da quarta imagem",
     },
     {
       original: img5,
       thumbnail: img5,
+      originalAlt: "Quinta imagem da galeria",
+      thumbnailAlt: "Miniatura da quinta imagem",
     },
   ];
 
   return (
     <SectionArea
       id="about"
-      className={`${bgClass} transition-colors duration-1000`} paddingbot={false}
+      className={`${bgClass} transition-colors duration-1000`}
+      paddingbot={false}
     >
       <SectionWrapper className="flex flex-col desktop1:flex-row-reverse gap-[40px] desktop1:gap-x-[40px] desktop2:gap-0 desktop1:justify-between">
         {/* <MotionDivDownToUp className="relative w-[90%] desktop1:w-[415px] desktop2:w-[450px] flex justify-center rounded-xl">
