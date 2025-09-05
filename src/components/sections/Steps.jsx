@@ -106,7 +106,7 @@ export default function Steps({ colorMode }) {
                 Arte Digital, Instituto Pedro Moraleida Bernardes, cantora e
                 compositora Julia Mestre, Editora e Produtora Audiovisual
                 Comunicação de Fato, FLIARCOS, Coleção “Caminhando pela
-                História”, Festival de Cutas Flávio Migliaccio, Se Baterem,
+                História”, Festival de Curtas Flávio Migliaccio, Se Baterem,
                 Catem!, dentre tantos outros de igual relevância.
               </p>
               <br />

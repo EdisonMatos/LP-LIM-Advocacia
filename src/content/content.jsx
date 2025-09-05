@@ -349,7 +349,7 @@ const content = {
             <br />▪ Prescrição e Decadência;
             <br />▪ Tutelas de Urgência;
             <br />▪ Nulidades;
-            <br />▪ Manfado de Segurança;
+            <br />▪ Mandado de Segurança;
             <br />
             <br />
             <strong>
@@ -700,7 +700,7 @@ const content = {
         subtitle: "A_Definir",
         description: (
           <div>
-            O Núcleo de Direito das Famílias é Sucessão atua nas mais variadas
+            O Núcleo de Direito das Famílias e Sucessão atua nas mais variadas
             questões atinentes ao direito das Famílias e Sucessões, desde os
             direitos do nascituro ao falecimento, confecção de de pacto
             antenupcial, pacto de união estável, modificação do regime de bens,
