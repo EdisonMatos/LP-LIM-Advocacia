@@ -189,7 +189,7 @@ export default function SidebarSocial({ colorMode }) {
                                 <Cpu />
                                 <span className="ml-[8px]">
                                   <Link
-                                    to="cores"
+                                    to="nucleo"
                                     className="align-text-top cursor-pointer"
                                     spy={true}
                                     smooth={true}
@@ -257,3 +257,4 @@ export default function SidebarSocial({ colorMode }) {
     </div>
   );
 }
+
