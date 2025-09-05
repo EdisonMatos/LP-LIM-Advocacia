@@ -49,25 +49,23 @@ export default function ListGroupSocial({ colorMode = "default" }) {
       {["home", "work", "industry", "nucleo", "products", "about"].map(
         (section, index) => (
           <li key={section} className="transition group h-[24px] text-center">
-            <a href={`#${section}`} className="relative font-semibold">
-              <Link
-                to={section}
-                spy={true}
-                smooth={true}
-                duration={500}
-                offset={-50}
-                className="cursor-pointer"
+            <Link
+              to={section}
+              className="relative font-semibold cursor-pointer"
+              spy={true}
+              smooth={true}
+              duration={500}
+              offset={-50}
+            >
+              <span
+                className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
               >
-                <span
-                  className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
-                >
-                  {content.texts.navbar.menuItems[index]}
-                </span>
-                <div
-                  className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
-                />
-              </Link>
-            </a>
+                {content.texts.navbar.menuItems[index]}
+              </span>
+              <div
+                className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
+              />
+            </Link>
           </li>
         )
       )}
