@@ -49,13 +49,16 @@ export default function ListGroupSocial({ colorMode = "default" }) {
       {["home", "work", "industry", "nucleo", "products", "about"].map(
         (section, index) => (
           <li key={section} className="transition group h-[24px] text-center">
-            <Link
-              to={section}
+            <a
+              href={`#${section}`}
               className="relative font-semibold cursor-pointer"
-              spy={true}
-              smooth={true}
-              duration={500}
-              offset={-50}
+              onClick={(e) => {
+                e.preventDefault(); // impede o salto seco
+                const el = document.getElementById(section);
+                if (el) {
+                  el.scrollIntoView({ behavior: "smooth", block: "start" });
+                }
+              }}
             >
               <span
                 className={`h-[24px] inline-block ${getHoverTextColor()} ${textShadow}`}
@@ -65,7 +68,7 @@ export default function ListGroupSocial({ colorMode = "default" }) {
               <div
                 className={`absolute -bottom-2 left-0 w-full h-0.5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 ${getBorderColor()}`}
               />
-            </Link>
+            </a>
           </li>
         )
       )}
