@@ -258,4 +258,3 @@ export default function SidebarSocial({ colorMode }) {
   );
 }
 
-// subir código
